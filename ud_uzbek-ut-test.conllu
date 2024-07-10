@@ -53,11 +53,11 @@
 18	etish	et	VERB	_	VerbForm=Vnoun	17	compound	17:compound	_
 19	uchun	uchun	ADP	_	_	17	case	17:case	_
 20	O‘zbekistonga	O‘zbekiston	PROPN	_	Case=Dat	21	obl	21:obl	_
-21	keldi	kel	VERB	_	Person=3|Mood=Ind|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
+21	keldi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 22	.	.	PUNCT	_	_	21	punct	21:punct	_
 
 # sent_id = 4
-# text = Ichki ishlar vazirligi, “UzAuto Motors” AJ tomonidan yuqorida keltirilgan chora-tadbirlar ijrosi bajarilishi hamda natijasi boʻyicha Agentlikka axborot kiritib borilishiga kelishildi.
+# text = Ichki ishlar vazirligi, “UzAuto Motors” AJ tomonidan yuqorida keltirilgan chora-tadbirlar ijrosi bajarilishi hamda natijasi bo‘yicha Agentlikka axborot kiritib borilishiga kelishildi.
 1	Ichki	ichki	ADJ	_	_	2	amod	2:amod	_
 2	ishlar	ish	NOUN	_	Number=Plur	3	compound	3:compound	_
 3	vazirligi	vazirlik	NOUN	_	Case=Nom|Number=Sing	15	obl	15:obl	SpaceAfter=No
@@ -69,7 +69,7 @@
 9	AJ	AJ	NOUN	_	Abbr=Yes	3	conj	3:conj	_
 10	tomonidan	tomon	ADP	_	_	3	case	3:case	_
 11	yuqorida	yuqori	ADV	_	Case=Loc	12	advmod	12:advmod	_
-12	keltirilgan	kel	VERB	_	Tense=Past|Voice=Pass|VerbForm=Part	13	advcl	13:advcl	_
+12	keltirilgan	kel	VERB	_	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	13:advcl	_
 13	chora-tadbirlar	chora-tadbir	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	14	nmod	14:nmod	_
 14	ijrosi	ijro	NOUN	_	Case=Nom|Number=Sing	15	obl	15:obl	_
 15	bajarilishi	bajar	VERB	_	VerbForm=Vnoun	20	acl	20:acl	_
@@ -274,9 +274,9 @@
 3	Rajab	Raja	PROPN	_	Case=Nom|Number=Sing	2	appos	2:appos	_
 4	Toyyib	Toyyib	PROPN	_	Case=Nom|Number=Sing	3	flat	3:flat	_
 5	Erdo‘g‘on	Erdo‘g‘on	PROPN	_	Case=Nom|Number=Sing	3	flat	3:flat	_
-6	O‘zbekistonning	O‘zbekiston	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod	11:nmod	_
+6	O‘zbekistonning	O‘zbekiston	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	13	nmod	13:nmod	_
 7	oliy	oliy	ADJ	_	_	8	advmod	8:advmod	_
-8	darajali	darajali	ADJ	_	_	11	amod	11:amod	_
+8	darajali	darajali	ADJ	_	_	13	amod	13:amod	_
 9	Imom	Imom	PROPN	_	Case=Nom|Number=Sing	13	compound	13:compound	_
 10	Al	Al	PROPN	_	Case=Nom|Number=Sing	9	flat	9:flat	SpaceAfter=No
 11	-	-	PUNCT	_	_	10	punct	10:punct	SpaceAfter=No
@@ -287,7 +287,7 @@
 16	.	.	PUNCT	_	_	15	punct	15:punct	_
 
 # sent_id = 16
-# text = Keyingi ikki raundda Hasanboy to‘liq ustunlik qildi va so‘nggi uch daqiqalikda raqibini nokdaun holatiga tushirishga erishdi. 
+# text = Keyingi ikki raundda Hasanboy to‘liq ustunlik qildi va so‘nggi uch daqiqalikda raqibini nokdaun holatiga tushirishga erishdi.
 1	Keyingi	keyingi	ADJ	_	_	3	amod	3:amod	_
 2	ikki	ikki	NUM	_	NumType=Card	3	nummod	3:nummod	_
 3	raundda	raund	NOUN	_	Case=Loc	6	obl	6:obl	_
@@ -1001,7 +1001,7 @@
 6	hal	hal	PART	_	_	10	acl	10:acl	_
 7	etilishi	et	VERB	_	VerbForm=Vnoun	6	compound	6:compound	_
 8	lozim	lozim	AUX	_	_	6	aux	6:aux	_
-9	bo‘lgan	bo‘l	VERB	_	VerbForm=Part	8	compound	8:compound	_
+9	bo‘lgan	bo‘l	AUX	_	VerbForm=Part	6	aux	6:aux	_
 10	masalalar	masala	NOUN	_	Case=Nom|Number=Plur	11	nsubj	11:nsubj	_
 11	mavjud	mavjud	VERB	_	Tense=Pres	0	root	0:root	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	11:punct	_
@@ -1156,7 +1156,7 @@
 14	bir	bir	NUM	_	NumType=Card	16	nummod	16:nummod	_
 15	nafar	nafar	NOUN	_	_	14	compound	14:compound	_
 16	parlamentariy	parlamentariy	NOUN	_	Case=Nom|Number=Sing	18	nsubj	18:nsubj	_
-17	betaraf	betaraf	ADJ	_	_	18	xcmop	18:xcomp	_
+17	betaraf	betaraf	ADJ	_	_	18	xcomp	18:xcomp	_
 18	qoldi	qol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	conj	10:conj	SpaceAfter=No
 19	.	.	PUNCT	_	_	10	punct	10:punct	_
 
@@ -1176,7 +1176,7 @@
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 73
-# text = Eng yangi LGALPHA 9 protsessori bozordagi yetakchi OLEDTV televizorlariga quvvat qo‘shadi. 
+# text = Eng yangi LGALPHA 9 protsessori bozordagi yetakchi OLEDTV televizorlariga quvvat qo‘shadi.
 1	Eng	eng	ADV	_	_	2	advmod	2:advmod	_
 2	yangi	yangi	ADJ	_	_	5	amod	5:amod	_
 3	LGALPHA	LGALPHA	NOUN	_	_	5	nmod	5:nmod	_
@@ -1217,7 +1217,7 @@
 2	rafiqasi	rafiqa	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	3	nmod	3:nmod	_
 3	homiladorligi	homiladorlik	NOUN	_	Case=Nom|Number=Sing	5	obl	5:obl	_
 4	haqidagi	haqidagi	ADP	_	_	3	case	3:case	_
-5	posti	post	NOUN	_	Case=Nom|Number=Sing	13	nsubj	13:nsubj|12:nsubj:xsubj	_
+5	posti	post	NOUN	_	Case=Nom|Number=Sing	13	nsubj	13:nsubj	_
 6	2020	2020	NUM	_	NumType=Card	8	nummod	8:nummod	SpaceAfter=No
 7	-	-	PUNCT	_	_	6	punct	6:punct	SpaceAfter=No
 8	yilning	yil	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod	11:nmod	_
@@ -1271,11 +1271,11 @@
 5	matbuot	matbuot	NOUN	_	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
 6	xizmati	xizmat	NOUN	_	Case=Nom|Number=Sing	5	compound	5:compound	_
 7	xabar	xabar	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	berdi	ber	VERB	_	Person=3|Mood=Ind|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 79
-# text = Tashrif doirasida Pamela Spratlen Samarqand davlat universitetiga borib, rektor Olimjon Xolmuhammedov bilan uchrashdi. 
+# text = Tashrif doirasida Pamela Spratlen Samarqand davlat universitetiga borib, rektor Olimjon Xolmuhammedov bilan uchrashdi.
 1	Tashrif	tashrif	NOUN	_	Case=Nom|Number=Sing	8	obl	8:obl	_
 2	doirasida	doira	NOUN	_	Case=Loc|Number=Sing	1	case	1:case	_
 3	Pamela	Pamela	PROPN	_	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
@@ -1317,7 +1317,7 @@
 4	yig‘inida	yig‘in	NOUN	_	Case=Loc|Number=Sing	10	obl	10:obl	_
 5	otalar	ota	NOUN	_	Case=Nom|Number=Plur	6	nmod	6:nmod	_
 6	choyxonasi	choyxona	NOUN	_	Case=Nom|Number=Sing	12	nsubj	12:nsubj	SpaceAfter=No
-7	,	,	PUNCT	_	_	11	punct	11:punct	_
+7	,	,	PUNCT	_	_	6	punct	6:punct	_
 8	shaxmat	shaxmat	NOUN	_	Case=Loc|Number=Sing	11	compound	11:compound	SpaceAfter=No
 9	-	-	PUNCT	_	_	8	punct	8:punct	SpaceAfter=No
 10	shashka	shashka	NOUN	_	Case=Loc|Number=Sing	8	compound	8:compound	_
@@ -1391,7 +1391,7 @@
 12	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 87
-# text = Air France samolyoti Parij — Tunis yo‘nalishi bo‘ylab uchayotgan bo‘lgan.
+# text = Air France samolyoti Parij — Tunis yo‘nalishi bo‘ylab uchayotgan bo'lgan.
 1	Air	Air	NOUN	_	Foreign=Yes	3	compound	3:compound	_
 2	France	France	NOUN	_	Foreign=Yes	1	flat	1:flat	_
 3	samolyoti	samolyot	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
@@ -1401,7 +1401,7 @@
 7	yo‘nalishi	yo‘nalish	NOUN	_	Case=Nom|Number=Sing	9	obl	9:obl	_
 8	bo‘ylab	bo‘ylab	ADP	_	_	7	case	7:case	_
 9	uchayotgan	uch	VERB	_	VerbForm=Part	0	root	0:root	_
-10	bo‘lgan	bo‘l	AUX	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	SpaceAfter=No
+10	bo'lgan	bo'l	AUX	_	Person=3|Tense=Past|VerbForm=Fin	9	aux	9:aux	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 88
@@ -1506,7 +1506,7 @@
 
 # sent_id = 93
 # text = Kompaniya qarorga bo‘ysunishdan bosh tortgan.
-1	Kompaniya	kompaniya	NOUN	_	Case=Nom|Number=Sing	4	nsubj	4:nsubj|3:nsubj:xsubj	_
+1	Kompaniya	kompaniya	NOUN	_	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 2	qarorga	qaror	NOUN	_	Case=Dat|Number=Sing	3	obj	3:obj	_
 3	bo‘ysunishdan	bo‘ysun	VERB	_	Case=Abl|VerbForm=Vnoun	4	xcomp	4:xcomp	_
 4	bosh	bosh	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
@@ -1562,7 +1562,7 @@
 2	birgina	bir	NUM	_	NumType=Card	3	nummod	3:nummod	_
 3	klubning	klub	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	5	nmod	5:nmod	_
 4	qarshi	qarshi	ADJ	_	_	5	advmod	5:advmod	_
-5	ovoz	ovoz	NOUN	_	Case=Nom|Number=Sing	11	nsubj:xsubj	11:nsubj:xsubj|12:nsubj	_
+5	ovoz	ovoz	NOUN	_	Case=Nom|Number=Sing	12	nsubj	12:nsubj	_
 6	berishi	ber	VERB	_	Person=3|VerbForm=Vnoun	5	compound	5:compound	_
 7	taklifning	taklif	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	8	nmod	8:nmod	_
 8	rad	rad	NOUN	_	Case=Nom|Number=Sing	11	obl	11:obl	_
@@ -1579,7 +1579,7 @@
 3	iqtisodiy	iqtisodiy	ADJ	_	_	4	amod	4:amod	_
 4	munosabatlarning	munosabat	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	5	nmod	5:nmod	_
 5	barqarorligini	barqarorlik	NOUN	_	Case=Acc|Number=Sing	6	obj	6:obj	_
-6	ta’minlash	ta’minla	VERB	_	VerbForm=Vnoun	10	csubj:xsubj	10:csubj:xsubj|11:csubj	_
+6	ta’minlash	ta’minla	VERB	_	VerbForm=Vnoun	10	csubj	10:csubj	_
 7	barchamizning	barcha	PRON	_	Case=Gen|Number=Plur|Poss=Yes|PronType=Tot	9	nmod	9:nmod	_
 8	ustuvor	ustuvor	ADJ	_	_	9	amod	9:amod	_
 9	vazifalarimizdan	vazifa	NOUN	_	Case=Abl|Number=Plur	10	nmod	10:nmod	_
@@ -1689,7 +1689,7 @@
 8	vositasiga	vosita	NOUN	_	Case=Dat|Number=Sing	9	iobj	9:iobj	_
 9	aylantirib	aylan	VERB	_	VerbForm=Conv	11	ccomp	11:ccomp	_
 10	qo‘yishga	qo‘y	VERB	_	Case=Dat|VerbForm=Vnoun	9	compound	9:compound	_
-11	qarshiman	qarshi	ADV	_	Number=Sing|Person=1	0	root	0:root	SpaceAfter=No
+11	qarshiman	qarshi	ADV	_	_	0	root	0:root	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 106
@@ -1948,7 +1948,7 @@
 7	.	.	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 123
-# text = Ta’limning birinchi yili talabalar o‘zbek tilini o‘rganadi va kasb-hunar ta'limi dasturida yo‘nalish oladi.
+# text = Ta’limning birinchi yili talabalar o‘zbek tilini o‘rganadi va kasb-hunar ta’limi dasturida yo‘nalish oladi.
 1	Ta’limning	ta’lim	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	3	nmod	3:nmod	_
 2	birinchi	bir	NUM	_	NumType=Ord	3	nummod	3:nummod	_
 3	yili	yil	NOUN	_	Case=Nom|Number=Sing	7	obl	7:obl	_
@@ -1957,8 +1957,8 @@
 6	tilini	til	NOUN	_	Case=Acc|Number=Sing	7	obj	7:obj	_
 7	o‘rganadi	o‘rgan	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	0:root	_
 8	va	va	CCONJ	_	_	14	cc	14:cc	_
-9	kasb	kasb	NOUN	_	Case=Nom|Number=Sing	12	compound	12:compound	_
-10	-	-	PUNCT	_	_	9	punct	9:punct	_
+9	kasb	kasb	NOUN	_	Case=Nom|Number=Sing	12	compound	12:compound	SpaceAfter=No
+10	-	-	PUNCT	_	_	9	punct	9:punct	SpaceAfter=No
 11	hunar	hunar	NOUN	_	Case=Nom|Number=Sing	9	compound	9:compound	_
 12	ta’limi	ta’lim	NOUN	_	Case=Nom|Number=Sing	13	nmod	13:nmod	_
 13	dasturida	dastur	NOUN	_	Case=Loc|Number=Sing	14	obl	14:obl	_
@@ -2060,13 +2060,13 @@
 8	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 131
-# text = Nahotki u insoniy munosabatlardan ustun bo‘lsa?
+# text = Nahotki u insoniy munosabatlardan ustun bo'lsa?
 1	Nahotki	nahotki	ADV	_	_	5	advmod	5:advmod	_
 2	u	u	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	5:nsubj	_
 3	insoniy	insoniy	ADJ	_	_	4	amod	4:amod	_
 4	munosabatlardan	munosabat	NOUN	_	Case=Abl|Number=Plur	5	obl	5:obl	_
 5	ustun	ustun	ADJ	_	_	0	root	0:root	_
-6	bo‘lsa	bo‘l	AUX	_	Mood=Int|Person=3|VerbForm=Inf	5	aux	5:aux	SpaceAfter=No
+6	bo'lsa	bo'l	AUX	_	Person=3	5	aux	5:aux	SpaceAfter=No
 7	?	?	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 132
@@ -2131,7 +2131,7 @@
 18	.	.	PUNCT	_	_	16	punct	16:punct	_
 
 # sent_id = 136
-# text = Tender savdolari 2020-yilning birinchi choragida e'lon qilinishi mumkin.
+# text = Tender savdolari 2020-yilning birinchi choragida e’lon qilinishi mumkin.
 1	Tender	tender	NOUN	_	Case=Nom|Number=Sing	2	nmod	2:nmod	_
 2	savdolari	savdo	NOUN	_	Case=Nom|Number=Plur	8	nsubj	8:nsubj	_
 3	2020	2020	NUM	_	NumType=Card	5	nummod	5:nummod	SpaceAfter=No
@@ -2156,7 +2156,7 @@
 8	.	.	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 138
-# text = Ushbu jamg`arma mablag‘larni sakkita kasalxonaga bo`lib bergan.
+# text = Ushbu jamg‘arma mablag‘larni sakkita kasalxonaga bo‘lib bergan.
 1	Ushbu	ushbu	DET	_	PronType=Dem	2	det	2:det	_
 2	jamg‘arma	jamg‘arma	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 3	mablag‘larni	mablag‘	NOUN	_	Case=Acc|Number=Plur	6	obj	6:obj	_
@@ -2335,7 +2335,7 @@
 15	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	compound	14:compound	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
-# sent_id = 150 
+# sent_id = 150
 # text = Shu kuni unga turmush o‘rtog‘i Nodira Haydarova va o‘g‘li Sharofiddin Daminov bilan uchrashuv tashkil qilib berilgan.
 1	Shu	shu	DET	_	PronType=Dem	2	det	2:det	_
 2	kuni	kun	NOUN	_	Case=Nom|Number=Sing	14	obl	14:obl	_
@@ -2725,17 +2725,17 @@
 11	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 174
-# text = Yomg‘irlar, asosan, qisqa muddatli bo‘lib, momaqaldiroq bo‘ladi va shiddatli shamol esadi.
+# text = Yomg‘irlar, asosan, qisqa muddatli bo'lib, momaqaldiroq bo'ladi va shiddatli shamol esadi.
 1	Yomg‘irlar	yomg‘ir	NOUN	_	Case=Nom|Number=Plur	6	nsubj	6:nsubj	SpaceAfter=No
 2	,	,	PUNCT	_	_	3	punct	3:punct	_
 3	asosan	asosan	ADV	_	_	6	advmod	6:advmod	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	3:punct	_
 5	qisqa	qisqa	ADJ	_	_	6	amod	6:amod	_
 6	muddatli	muddatli	ADJ	_	_	0	root	0:root	_
-7	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	6	aux	6:aux	SpaceAfter=No
+7	bo'lib	bo'l	AUX	_	VerbForm=Conv	6	aux	6:aux	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	7:punct	_
 9	momaqaldiroq	momaqaldiroq	NOUN	_	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
-10	bo‘ladi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	6	conj	6:conj	_
+10	bo'ladi	bo'l	AUX	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	6	conj	6:conj	_
 11	va	va	CCONJ	_	_	14	cc	14:cc	_
 12	shiddatli	shiddatli	ADJ	_	_	13	amod	13:amod	_
 13	shamol	shamol	NOUN	_	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
@@ -3838,7 +3838,7 @@
 5	hech	hech	DET	_	PronType=Neg	7	iobj	7:iobj	_
 6	kimga	kim	PRON	_	Case=Dat|Number=Sing|PronType=Int	5	compound	5:compound	_
 7	yoqqani	yoq	VERB	_	Person=3|VerbForm=Part	0	root	0:root	_
-8	yoʻq	yoʻq	AUX	_	Polarity=Neg	7	aux	7:aux	SpaceAfter=No
+8	yoʻq	yoʻq	VERB	_	Polarity=Neg	7	aux	7:aux	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 243
@@ -4133,7 +4133,7 @@
 3	Hamrobuvi	Hamrobuvi	PROPN	_	Case=Nom|Number=Sing	1	vocative	1:vocative	_
 4	xola	xola	NOUN	_	Case=Nom|Number=Sing	3	flat	3:flat	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	3:punct	_
-6	yaxshimisiz	yaxshi	ADJ	_	Number=Sing|Person=3	1	parataxis	1:parataxis	SpaceAfter=No
+6	yaxshimisiz	yaxshi	ADJ	_	_	1	parataxis	1:parataxis	SpaceAfter=No
 7	?	?	PUNCT	_	_	1	punct	1:punct	_
 
 # sent_id = 263
@@ -4218,7 +4218,7 @@
 5	maktabga	maktab	NOUN	_	Case=Dat|Number=Sing	6	obl	6:obl	_
 6	yuborgan	yubor	VERB	_	VerbForm=Part	7	acl	7:acl	_
 7	otalarga	ota	NOUN	_	Case=Dat|Number=Plur	8	iobj	8:iobj	_
-8	hayronman	hayron	ADJ	_	Number=Sing|Person=1	0	root	0:root	SpaceAfter=No
+8	hayronman	hayron	ADJ	_	Person=1	0	root	0:root	SpaceAfter=No
 9	…	…	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 269
@@ -4226,7 +4226,7 @@
 1	Men	men	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	3:nsubj	_
 2	sizga	siz	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	iobj	3:iobj	_
 3	aytsam	ayt	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Fut	9	advcl	9:advcl	SpaceAfter=No
-4	,	,	PUNCT	_	_	6	punct	6:punct	_
+4	,	,	PUNCT	_	_	4	punct	4:punct	_
 5	mulla	mulla	NOUN	_	Case=Nom|Number=Sing	9	vocative	9:vocative	_
 6	Norqo‘zi	Norqo‘zi	PROPN	_	Case=Nom|Number=Sing	5	flat	5:flat	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	6:punct	_
@@ -4300,7 +4300,7 @@
 11	.	.	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 275
-# text = O‘g‘limning o‘zi hushyor bola, g‘alati-g‘alati paytlarni topgan bo‘lsa kerak.
+# text = O‘g‘limning o‘zi hushyor bola, g‘alati-g‘alati paytlarni topgan bo'lsa kerak.
 1	O‘g‘limning	o‘g‘il	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	2	nmod	2:nmod	_
 2	o‘zi	o‘z	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	nsubj	4:nsubj	_
 3	hushyor	hushyor	ADJ	_	_	4	amod	4:amod	_
@@ -4309,7 +4309,7 @@
 6	g‘alati-g‘alati	g‘alati-g‘alati	ADJ	_	_	7	amod	7:amod	_
 7	paytlarni	payt	NOUN	_	Case=Acc|Number=Plur	8	obj	8:obj	_
 8	topgan	top	VERB	_	VerbForm=Part	4	parataxis	4:parataxis	_
-9	bo‘lsa	bo‘l	VERB	_	Mood=Cnd|Number=Sing|Person=3	8	aux	8:aux	_
+9	bo'lsa	bo'l	AUX	_	Mood=Cnd|Number=Sing|Person=3	8	aux	8:aux	_
 10	kerak	kerak	AUX	_	Tense=Pres|VerbForm=Fin	8	aux	8:aux	SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	4:punct	_
 
@@ -4954,7 +4954,7 @@
 4	katta	katta	ADJ	_	_	8	amod	8:amod	_
 5	va	va	CCONJ	_	_	6	cc	6:cc	_
 6	qizg‘in	qizg‘in	ADJ	_	_	4	conj	4:conj	_
-7	bir	bir	DET	_	NumType=Card	8	det	8:det	_
+7	bir	bir	DET	_	PronType=Ind	8	det	8:det	_
 8	zikr	zikr	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 9	bo‘ldi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	9:punct	_
@@ -5925,7 +5925,7 @@
 4	shamol	shamol	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 5	esa	esa	CCONJ	_	_	8	cc	8:cc	_
 6	tevarakni	tevarak	NOUN	_	Case=Acc|Number=Sing	8	obj	8:obj	_
-7	kulrangga	kulrang	ADJ	_	Case=Dat|Number=Sing	8	obl	8:obl	_
+7	kulrangga	kulrang	ADJ	_	Case=Dat	8	obl	8:obl	_
 8	o‘zgartirib	o‘zgar	VERB	_	VerbForm=Conv	0	root	0:root	_
 9	yuboradi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
@@ -5973,7 +5973,7 @@
 3	kelgan	kel	VERB	_	VerbForm=Part	4	acl	4:acl	_
 4	qiz	qiz	NOUN	_	Case=Nom|Number=Sing	8	nsubj	8:nsubj	_
 5	menga	men	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	8	iobj	8:iobj	_
-6	o‘sha	o‘sha	DET	_	PronType=Dem	5	case	5:case	_
+6	o‘sha	o‘sha	DET	_	PronType=Dem	7	det	7:det	_
 7	asalni	asal	NOUN	_	Case=Acc|Number=Sing	8	obj	8:obj	_
 8	eslatadi	eslat	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	8:punct	_
@@ -5999,7 +5999,7 @@
 1	Tushimga	tush	NOUN	_	Case=Dat|Number=Sing	4	obl	4:obl	_
 2	oppoq	oppoq	ADJ	_	_	3	amod	3:amod	_
 3	soqolli	soqolli	ADJ	_	_	5	amod	5:amod	_
-4	bir	bir	NUM	_	NumType=Card	5	det	5:det	_
+4	bir	bir	DET	_	PronType=Ind	5	det	5:det	_
 5	chol	chol	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 6	kirgan	kir	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	_
 7	edi	edi	AUX	_	Tense=Past	6	cop	6:cop	SpaceAfter=No
@@ -6010,7 +6010,7 @@
 1	Ubay	Ubay	PROPN	_	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 2	aka	aka	NOUN	_	Case=Nom|Number=Sing	1	flat	1:flat	_
 3	bizning	biz	PRON	_	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	nmod	4:nmod	_
-4	qo‘shnimiz	qo‘shni	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
+4	qo‘shnimiz	qo‘shni	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	SpaceAfter=No
 5	,	,	PUNCT	_	_	13	punct	13:punct	_
 6	baquvvat	baquvvat	ADJ	_	_	13	amod	13:amod	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	8:punct	_
@@ -6183,7 +6183,7 @@
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	Rasul	Rasul	PROPN	_	Case=Nom|Number=Sing	4	xcomp	4:xcomp	_
 4	degan	de	VERB	_	_	6	acl	6:acl	_
-5	bir	bir	NUM	_	NumType=Card	6	det	6:det	_
+5	bir	bir	DET	_	PronType=Ind	6	det	6:det	_
 6	bolaning	bola	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	7	nmod	7:nmod	_
 7	daftarida	daftar	NOUN	_	Case=Loc|Number=Sing	12	obl	12:obl	_
 8	yaxshi	yaxshi	ADJ	_	_	9	amod	9:amod	_
