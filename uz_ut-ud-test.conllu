@@ -1,6 +1,6 @@
 # sent_id = 1
 # text = O‘zbekistonda yil boshidan beri soliq tushumlari qanday o‘zgargani tahlil qilindi.
-1	O‘zbekistonda	O‘zbekiston	PROPN	_	Case=Loc|Number=Sing	9	obl	9:obl	_
+1	O‘zbekistonda	O‘zbekiston	PROPN	_	Case=Loc|Number=Sing	8	obl	8:obl	_
 2	yil	yil	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	3	nmod	3:nmod	_
 3	boshidan	bosh	NOUN	_	Case=Abl	8	obl	8:obl	_
 4	beri	beri	ADP	_	_	3	case	3:case	_
@@ -8,9 +8,9 @@
 6	tushumlari	tushum	NOUN	_	Case=Nom|Number=Plur	8	obl	8:obl	_
 7	qanday	qanday	ADV	_	PronType=Int	8	advmod	8:advmod	_
 8	o‘zgargani	o‘zgar	VERB	_	VerbForm=Part	9	csubj	9:csubj	_
-9	tahlil	tahlil	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	qilindi	qil	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	9	compound:lvc	9:compound:lvc	SpaceAfter=No
-11	.	.	PUNCT	_	_	9	punct	9:punct	_
+9	tahlil	tahlil	NOUN	_	Case=Nom|Number=Sing	10	compound:lvc	10:compound:lvc	_
+10	qilindi	qil	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 2
 # text = Turkiy davlatlar tashkiloti sammiti doirasida Samarqandga kelgan davlat rahbarlarining rafiqalari uchun maxsus ko‘rgazma tashkil etildi.
@@ -3319,7 +3319,7 @@
 2	oʻzimni	oʻz	PRON	_	Case=Acc|Number=Sing	6	obj	6:obj	_
 3	Amerika	Amerika	PROPN	_	Case=Nom|Number=Sing	4	nmod	4:nmod	_
 4	karnavallarida	karnaval	NOUN	_	Case=Loc|Number=Plur	5	obl	5:obl	_
-5	qatnashayotgandek	qatnash	VERB	_	VerbForm=Part|Voice=Pass	6	advcl	6:advcl	_
+5	qatnashayotgandek	qatnash	VERB	_	VerbForm=Part	6	advcl	6:advcl	_
 6	his	his	NOUN	_	_	0	root	0:root	_
 7	qildim	qil	VERB	_	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	_
 8	ochigʻi	ochigʻi	ADV	_	_	6	advmod	6:advmod	SpaceAfter=No

@@ -1,16 +1,13 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+This is the first Uzbek UD treebank. 
 
 
 # Introduction
 
-...
+Uzbek-UT consists of 500 sentences, 250 of which were sourced from news articles and 250 from fiction. Tokenization and lemmatization were carried out automatically. POS tags and dependency relations were annotated semi-automatically with full manual corrections.
 
 
-# Acknowledgments
-
-...
 
 ## References
 
@@ -28,7 +25,7 @@
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: grammar-examples
+Genre: news, fiction
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
