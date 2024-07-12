@@ -9,7 +9,7 @@
 7	qanday	qanday	PRON	_	PronType=Int	8	advmod	8:advmod	_
 8	o‘zgargani	o‘zgar	VERB	_	VerbForm=Part	9	csubj	9:csubj	_
 9	tahlil	tahlil	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	qilindi	qil	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	9	compound	9:compound	SpaceAfter=No
+10	qilindi	qil	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 2
@@ -164,7 +164,7 @@
 9	hayotiga	hayot	NOUN	_	Case=Dat|Number=Sing	11	iobj	11:iobj	_
 10	halokatli	halokatli	ADV	_	_	11	advmod	11:advmod	_
 11	ta’sir	ta’sir	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-12	ko‘rsatdi	ko‘rsat	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	ko‘rsatdi	ko‘rsat	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 9
@@ -235,7 +235,7 @@
 17	ozod	ozod	ADJ	_	_	19	ccomp	19:ccomp	_
 18	qilganini	qil	VERB	_	Case=Acc|VerbForm=Part	17	compound	17:compound	_
 19	ma’lum	ma’lum	ADJ	_	_	0	root	0:root	_
-20	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	compound	19:compound	SpaceAfter=No
+20	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	compound:lvc	19:compound:lvc	SpaceAfter=No
 21	.	.	PUNCT	_	_	19	punct	19:punct	_
 
 # sent_id = 13
@@ -294,7 +294,7 @@
 4	Hasanboy	Hasanboy	PROPN	_	Case=Nom	6	nsubj	6:nsubj	_
 5	to‘liq	to‘liq	ADJ	_	_	6	advmod	6:advmod	_
 6	ustunlik	ustunlik	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	_
+7	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	_
 8	va	va	CCONJ	_	_	16	cc	16:cc	_
 9	so‘nggi	so‘nggi	ADJ	_	_	11	amod	11:amod	_
 10	uch	uch	NUM	_	NumType=Card	11	nummod	11:nummod	_
@@ -414,7 +414,7 @@
 8	darajasini	daraja	NOUN	_	Case=Acc	9	obj	9:obj	_
 9	oshirishga	oshir	VERB	_	Case=Dat|VerbForm=Vnoun	10	xcomp	10:xcomp	_
 10	xizmat	xizmat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	qilmoqda	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	compound	10:compound	SpaceAfter=No
+11	qilmoqda	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 24
@@ -476,7 +476,7 @@
 6	insonlar	inson	NOUN	_	Case=Nom|Number=Plur|Poss=Yes	7	nmod	7:nmod	_
 7	hayotini	hayot	NOUN	_	Case=Acc|Number=Sing	8	obj	8:obj	_
 8	tasavvur	tasavvur	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	qilib	qil	VERB	_	VerbForm=Conv	8	compound	8:compound	_
+9	qilib	qil	VERB	_	VerbForm=Conv	8	compound:lvc	8:compound:lvc	_
 10	bo‘lmaydi	bo‘l	VERB	_	Mood=Pot|Polarity=Neg|Tense=Pres|VerbForm=Fin	8	compound	8:compound	_
 11	va	va	CCONJ	_	_	17	cc	17:cc	_
 12	ularda	u	PRON	_	Case=Loc|Number=Plur	17	obl	5:ref	_
@@ -493,7 +493,7 @@
 2	rahbarlari	rahbar	NOUN	_	Case=Nom|Number=Plur	4	nsubj	4:nsubj	_
 3	tadbirkorlarga	tadbirkor	NOUN	_	Case=Dat|Number=Plur	4	obj	4:obj	_
 4	qasd	qasd	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-5	qilganmi	qil	VERB	_	Mood=Int|Person=3|Tense=Past|VerbForm=Fin	4	compound	4:compound	SpaceAfter=No
+5	qilganmi	qil	VERB	_	Mood=Int|Person=3|Tense=Past|VerbForm=Fin	4	compound:lvc	4:compound:lvc	SpaceAfter=No
 6	?	?	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 29
@@ -518,7 +518,7 @@
 3	chalingan	chalin	VERB	_	VerbForm=Part	4	acl	4:acl	_
 4	bemorlarni	bemor	NOUN	_	Case=Acc|Number=Plur	5	obj	5:obj	_
 5	qabul	qabul	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-6	qilmaydi	qil	VERB	_	Mood=Ind|Person=3|Polarity=Neg|Tense=Fut	5	compound	5:compound	SpaceAfter=No
+6	qilmaydi	qil	VERB	_	Mood=Ind|Person=3|Polarity=Neg|Tense=Fut	5	compound:lvc	5:compound:lvc	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 31
@@ -583,7 +583,7 @@
 12	barpo	barpo	PART	_	_	14	ccomp	14:ccomp	_
 13	etishga	et	VERB	_	Case=Dat|VerbForm=Vnoun	12	compound	12:compound	_
 14	ko‘rsatma	ko‘rsatma	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-15	bergan	ber	VERB	_	Mood=Ind|Person=3|Tense=Past	14	compound	14:compound	SpaceAfter=No
+15	bergan	ber	VERB	_	Mood=Ind|Person=3|Tense=Past	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = 35
@@ -594,7 +594,7 @@
 4	bahsni	bahs	NOUN	_	Case=Acc|Number=Sing	6	obj	6:obj	_
 5	yaxshilab	yaxshilab	ADV	_	_	6	advmod	6:advmod	_
 6	tahlil	tahlil	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	_
+7	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	_
 8	va	va	CCONJ	_	_	11	cc	11:cc	_
 9	o‘z	o‘z	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod	10:nmod	_
 10	ko‘rsatmalarini	ko‘rsatma	NOUN	_	Case=Acc|Number=Plur	11	obj	11:obj	_
@@ -642,7 +642,7 @@
 11	bergani	ber	VERB	_	VerbForm=Part	10	compound	10:compound	_
 12	uchun	uchun	ADP	_	_	10	case	10:case	_
 13	minnatdorlik	minnatdorlik	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-14	bildirgan	bildir	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	compound	13:compound	SpaceAfter=No
+14	bildirgan	bildir	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	compound:lvc	13:compound:lvc	SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	13:punct	_
 
 # sent_id = 39
@@ -762,7 +762,7 @@
 7	qidirish	qidir	VERB	_	VerbForm=Vnoun	8	acl	8:acl	_
 8	ishlari	ish	NOUN	_	Case=Nom|Number=Plur	9	nsubj	9:nsubj	_
 9	davom	davom	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	etmoqda	et	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	etmoqda	et	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 47
@@ -808,7 +808,7 @@
 8	soat	soat	NOUN	_	Case=Nom|Number=Sing	9	compound	9:compound	_
 9	17.50da	17.50	NUM	_	Case=Loc|NumType=Card	10	obl	10:obl	_
 10	yuz	yuz	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	bergan	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound	10:compound	SpaceAfter=No
+11	bergan	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 50
@@ -820,7 +820,7 @@
 5	borish	bor	VERB	_	VerbForm=Vnoun	6	acl	6:acl	_
 6	yo‘lida	yo‘l	NOUN	_	Case=Loc|Number=Sing	7	obl	7:obl	_
 7	olamdan	olam	NOUN	_	Case=Abl|Number=Sing	0	root	0:root	_
-8	o‘tgan	o‘t	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	o‘tgan	o‘t	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 51
@@ -860,7 +860,7 @@
 7	kirakash	kirakash	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 8	unga	u	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	_
 9	e’tiroz	e’tiroz	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	bildirgan	bildir	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	bildirgan	bildir	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 54
@@ -929,7 +929,7 @@
 12	harbiylari	harbiy	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	13	nmod	13:nmod	_
 13	yordamidan	yordam	NOUN	_	Case=Abl|Number=Sing	14	obj	14:obj	_
 14	voz	voz	PART	_	_	0	root	0:root	_
-15	kechdi	kech	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	compound	14:compound	SpaceAfter=No
+15	kechdi	kech	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = 58
@@ -981,7 +981,7 @@
 10	onlayn	onlayn	ADJ	_	_	12	advmod	12:advmod	_
 11	ravishda	ravishda	ADP	_	_	10	case	10:case	_
 12	ishtirok	ishtirok	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-13	etib	et	VERB	_	VerbForm=Conv	12	compound	12:compound	SpaceAfter=No
+13	etib	et	VERB	_	VerbForm=Conv	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	,	,	PUNCT	_	_	19	punct	19:punct	_
 15	tadbirni	tadbir	NOUN	_	Case=Acc|Number=Sing	19	obj	19:obj	_
 16	kirish	kirish	NOUN	_	Case=Nom|Number=Sing	17	compound	17:compound	_
@@ -1019,7 +1019,7 @@
 9	bog‘chalarga	bog‘cha	NOUN	_	Case=Dat|Number=Plur	10	obl	10:obl	_
 10	qatnashiga	qatna	VERB	_	Case=Dat|VerbForm=Vnoun	11	ccomp	11:ccomp	_
 11	sabab	sabab	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-12	bo‘lmoqda	bo‘l	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	bo‘lmoqda	bo‘l	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 63
@@ -1037,7 +1037,7 @@
 11	yanada	yanada	ADV	_	_	12	advmod	12:advmod	_
 12	ommalashuviga	ommalashuv	NOUN	_	Case=Dat|Number=Sing	13	ccomp	13:ccomp	_
 13	xizmat	xizmat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-14	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	13	compound	13:compound	SpaceAfter=No
+14	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	13	compound:lvc	13:compound:lvc	SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	13:punct	_
 
 # sent_id = 64
@@ -1048,7 +1048,7 @@
 4	bog‘lovchi	bog‘la	VERB	_	_	5	acl	5:acl	_
 5	ko‘prik	ko‘prik	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 6	bunyod	bunyod	PART	_	_	0	root	0:root	_
-7	etildi	et	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	compound	6:compound	SpaceAfter=No
+7	etildi	et	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 65
@@ -1091,7 +1091,7 @@
 9	8-10	8-10	NUM	_	NumType=Range	10	nummod	10:nummod	_
 10	foizni	foiz	NOUN	_	Case=Acc|Number=Sing	11	obj	11:obj	_
 11	tashkil	tashkil	PART	_	_	0	root	0:root	_
-12	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 68
@@ -1105,7 +1105,7 @@
 7	tomonidan	tomonidan	ADP	_	_	6	case	6:case	_
 8	qattiq	qattiq	ADJ	_	_	9	advmod	9:advmod	_
 9	nazorat	nazorat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	qilinadi	qil	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	compound	9:compound	SpaceAfter=No
+10	qilinadi	qil	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 69
@@ -1135,7 +1135,7 @@
 8	bilan	bilan	ADP	_	_	7	case	7:case	_
 9	shug‘ullanishga	shug‘ullan	VERB	_	Case=Dat|VerbForm=Vnoun	10	xcomp	10:xcomp	_
 10	ruxsat	ruxsat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	berilgan	ber	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	10	compound	10:compound	SpaceAfter=No
+11	berilgan	ber	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 71
@@ -1271,7 +1271,7 @@
 5	matbuot	matbuot	NOUN	_	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
 6	xizmati	xizmat	NOUN	_	Case=Nom|Number=Sing	5	compound	5:compound	_
 7	xabar	xabar	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 79
@@ -1323,7 +1323,7 @@
 10	shashka	shashka	NOUN	_	Case=Loc|Number=Sing	8	compound	8:compound	_
 11	klubi	klub	NOUN	_	Case=Loc|Number=Sing	6	conj	6:conj	_
 12	tashkil	tashkil	PART	_	_	0	root	0:root	_
-13	etildi	et	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	12	compound	12:compound	SpaceAfter=No
+13	etildi	et	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 82
@@ -1351,7 +1351,7 @@
 13	91	91	NUM	_	NumType=Card	14	nummod	14:nummod	_
 14	yoshida	yosh	NOUN	_	Case=Loc|Number=Sing	15	obl	15:obl	_
 15	vafot	vafot	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-16	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	compound	15:compound	SpaceAfter=No
+16	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	compound:lvc	15:compound:lvc	SpaceAfter=No
 17	.	.	PUNCT	_	_	15	punct	15:punct	_
 
 # sent_id = 84
@@ -1510,7 +1510,7 @@
 2	qarorga	qaror	NOUN	_	Case=Dat|Number=Sing	3	obj	3:obj	_
 3	bo‘ysunishdan	bo‘ysun	VERB	_	Case=Abl|VerbForm=Vnoun	4	xcomp	4:xcomp	_
 4	bosh	bosh	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-5	tortgan	tort	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound	4:compound	SpaceAfter=No
+5	tortgan	tort	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound:lvc	4:compound:lvc	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 94
@@ -1604,7 +1604,7 @@
 13	xayrli	xayrli	ADJ	_	_	14	amod	14:amod	_
 14	ishlar	ish	NOUN	_	Case=Nom|Number=Plur	15	nsubj	15:nsubj	_
 15	amalga	amal	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-16	oshirilmoqda	oshir	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	compound	15:compound	SpaceAfter=No
+16	oshirilmoqda	oshir	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	compound:lvc	15:compound:lvc	SpaceAfter=No
 17	.	.	PUNCT	_	_	15	punct	15:punct	_
 
 # sent_id = 100
@@ -1665,7 +1665,7 @@
 1	Jinoyatchilar	jinoyatchi	NOUN	_	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
 2	tasodifan	tasodifan	ADV	_	_	3	advmod	3:advmod	_
 3	qo‘lga	qo‘l	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-4	olindi	ol	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	compound	3:compound	SpaceAfter=No
+4	olindi	ol	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	3	compound:lvc	3:compound:lvc	SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = 104
@@ -1807,7 +1807,7 @@
 9	hamma	hamma	PRON	_	PronType=Tot	11	nsubj	11:nsubj	_
 10	ham	ham	PART	_	_	11	advmod	11:advmod	_
 11	tan	tan	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-12	ololmaydi	ol	VERB	_	Mood=Pot|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	ololmaydi	ol	VERB	_	Mood=Pot|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 113
@@ -1822,7 +1822,7 @@
 8	alomati	alomat	NOUN	_	Case=Nom|Number=Sing	10	xcomp	10:xcomp	_
 9	deb	de	VERB	_	VerbForm=Conv	8	case	8:case	_
 10	tashxis	tashxis	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	qo‘yishdi	qo‘y	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	compound	10:compound	SpaceAfter=No
+11	qo‘yishdi	qo‘y	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 114
@@ -1839,7 +1839,7 @@
 10	tushirilgani	tushir	VERB	_	VerbForm=Part|Voice=Pass	9	compound	9:compound	_
 11	haqida	haqida	ADP	_	_	9	case	9:case	_
 12	xabar	xabar	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-13	berilgandi	ber	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	12	compound	12:compound	SpaceAfter=No
+13	berilgandi	ber	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 115
@@ -1903,14 +1903,14 @@
 10	hissa	hissa	NOUN	_	Case=Nom|Number=Sing	12	xcomp	12:xcomp	_
 11	qo‘shishga	qo‘sh	VERB	_	Case=Dat|VerbForm=Vnoun	10	compound	10:compound	_
 12	harakat	harakat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-13	qilmoqdamiz	qil	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	compound	12:compound	SpaceAfter=No
+13	qilmoqdamiz	qil	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 120
 # text = Shu sababli, dronlardan faqat razvedka maqsadida foydalanilmoqda.
-1	Shu	shu	PRON	_	PronType=Dem	8	advmod	8:advmod	_
-2	sababli	sababli	ADP	_	_	1	compound	1:compound	SpaceAfter=No
-3	,	,	PUNCT	_	_	1	punct	1:punct	_
+1	Shu	shu	DET	_	PronType=Dem	2	det	2:det	_
+2	sababli	sababli	ADP	_	_	8	advmod	8:advmod	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	2:punct	_
 4	dronlardan	dron	NOUN	_	Case=Abl|Number=Plur	8	obj	8:obj	_
 5	faqat	faqat	ADV	_	_	6	advmod	6:advmod	_
 6	razvedka	razvedka	NOUN	_	Case=Nom|Number=Sing	8	obl	8:obl	_
@@ -1927,7 +1927,7 @@
 5	hal	hal	PART	_	_	7	advcl	7:advcl	_
 6	qiluvchi	qil	VERB	_	VerbForm=Part	5	compound	5:compound	_
 7	rol	rol	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	o‘ynadi	o‘yna	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	o‘ynadi	o‘yna	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	10:punct	_
 10	chunki	chunki	SCONJ	_	_	14	mark	14:mark	_
 11	Ozarboyjon	Ozarboyjon	PROPN	_	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
@@ -1974,7 +1974,7 @@
 4	jurnali	jurnal	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	5	nmod	5:nmod	_
 5	saytida	sayt	NOUN	_	Case=Loc|Number=Sing	6	obl	6:obl	_
 6	e’lon	e’lon	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qilindi	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	compound	6:compound	SpaceAfter=No
+7	qilindi	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 125
@@ -2045,7 +2045,7 @@
 8	ortiq	ortiq	ADV	_	_	7	advmod	7:advmod	_
 9	vaqt	vaqt	NOUN	_	Case=Nom|Number=Sing	10	obl	10:obl	_
 10	tayyorgarlik	tayyorgarlik	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	ko‘rildi	ko‘r	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	10	compound	10:compound	SpaceAfter=No
+11	ko‘rildi	ko‘r	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 130
@@ -2071,7 +2071,7 @@
 
 # sent_id = 132
 # text = Nima uchun kimningdir hisobiga mashhurlikka erishilishi kerak?
-1	Nima	nima	PRON	_	PronType=Int	6	advmod	6:advmod	_
+1	Nima	nima	PRON	_	PronType=Int	6	obl	6:obl	_
 2	uchun	uchun	ADP	_	_	1	compound	1:compound	_
 3	kimningdir	kim	PRON	_	Case=Gen|Number=Sing|Poss=Yes|PronType=Ind	4	nmod	4:nmod	_
 4	hisobiga	hisob	NOUN	_	Case=Dat|Number=Sing	6	obl	6:obl	_
@@ -2094,7 +2094,7 @@
 10	hamohang	hamohang	ADJ	_	_	11	advmod	11:advmod	_
 11	yashash	yasha	VERB	_	VerbForm=Vnoun	3	conj	3:conj	_
 12	ma’nolarini	ma’no	NOUN	_	Case=Acc|Number=Plur	0	root	0:root	_
-13	bildiradi	bildir	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	compound	12:compound	SpaceAfter=No
+13	bildiradi	bildir	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 134
@@ -2127,7 +2127,7 @@
 14	o‘rinbosari	o‘rinbosar	NOUN	_	Case=Nom|Number=Sing	6	conj	6:conj	_
 15	bo‘lishiga	bo‘l	VERB	_	Case=Dat|VerbForm=Vnoun	16	xcomp	16:xcomp	_
 16	ruxsat	ruxsat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-17	berilsin	ber	VERB	_	Mood=Imp|Tense=Fut|VerbForm=Fin|Voice=Pass	16	compound	16:compound	SpaceAfter=No
+17	berilsin	ber	VERB	_	Mood=Imp|Tense=Fut|VerbForm=Fin|Voice=Pass	16	compound:lvc	16:compound:lvc	SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	16:punct	_
 
 # sent_id = 136
@@ -2140,7 +2140,7 @@
 6	birinchi	bir	NUM	_	NumType=Ord	7	nummod	7:nummod	_
 7	choragida	chorak	NOUN	_	Case=Loc|Number=Sing	8	obl	8:obl	_
 8	e’lon	e’lon	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	qilinishi	qil	VERB	_	VerbForm=Vnoun	8	compound	8:compound	_
+9	qilinishi	qil	VERB	_	VerbForm=Vnoun	8	compound:lvc	8:compound:lvc	_
 10	mumkin	mumkin	AUX	_	_	8	aux	8:aux	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	8:punct	_
 
@@ -2209,7 +2209,7 @@
 # text = Raqamli texnologiyalarning naqadar muhimligini bugungi pandemiya sharoiti ham yana bir bor isbotladi.
 1	Raqamli	raqamli	ADJ	_	_	2	amod	2:amod	_
 2	texnologiyalarning	texnologiya	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	4	nmod	4:nmod	_
-3	naqadar	naqadar	PRON	_	PronType=Int	4	advmod	4:advmod	_
+3	naqadar	naqadar	ADV	_	PronType=Int	4	advmod	4:advmod	_
 4	muhimligini	muhimlik	NOUN	_	Case=Acc|Number=Sing	12	obj	12:obj	_
 5	bugungi	bugungi	ADJ	_	_	6	amod	6:amod	_
 6	pandemiya	pandemiya	NOUN	_	Case=Nom|Number=Sing	7	nmod	7:nmod	_
@@ -2246,7 +2246,7 @@
 7	ijrosi	ijro	NOUN	_	Case=Nom|Number=Sing	9	obl	9:obl	_
 8	yuzasidan	yuzasidan	ADP	_	_	7	case	7:case	_
 9	hisobot	hisobot	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 144
@@ -2268,7 +2268,7 @@
 4	saharlik	saharlik	NOUN	_	Case=Nom|Number=Sing	6	xcomp	6:xcomp	_
 5	qilishga	qil	VERB	_	Case=Dat|VerbForm=Vnoun	4	compound	4:compound	_
 6	targ‘ib	targ‘ib	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qilinadi	qil	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Voice=Pass	6	compound	6:compound	SpaceAfter=No
+7	qilinadi	qil	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Voice=Pass	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 146
@@ -2332,7 +2332,7 @@
 12	bir	bir	NUM	_	NumType=Card	13	nummod	13:nummod	_
 13	bor	bor	NOUN	_	Case=Nom|Number=Sing	14	obl	14:obl	_
 14	ma’lum	ma’lum	ADJ	_	_	0	root	0:root	_
-15	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	compound	14:compound	SpaceAfter=No
+15	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = 150
@@ -2351,7 +2351,7 @@
 12	bilan	bilan	ADP	_	_	4	case	4:case	_
 13	uchrashuv	uchrashuv	NOUN	_	Case=Nom|Number=Sing	14	obj	14:obj	_
 14	tashkil	tashkil	PART	_	_	0	root	0:root	_
-15	qilib	qil	VERB	_	VerbForm=Conv	14	compound	14:compound	_
+15	qilib	qil	VERB	_	VerbForm=Conv	14	compound:lvc	14:compound:lvc	_
 16	berilgan	ber	VERB	_	Mood=Ind|Tense=Past|VerbForm=Part|Voice=Pass	15	compound	15:compound	SpaceAfter=No
 17	.	.	PUNCT	_	_	14	punct	14:punct	_
 
@@ -2373,7 +2373,7 @@
 14	telefon	telefon	NOUN	_	Case=Nom|Number=Sing	16	obl	16:obl	_
 15	orqali	orqal	ADP	_	_	14	case	14:case	_
 16	muloqot	muloqot	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-17	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	compound	16:compound	SpaceAfter=No
+17	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	compound:lvc	16:compound:lvc	SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	16:punct	_
 
 # sent_id = 152
@@ -2387,7 +2387,7 @@
 7	hudud	hudud	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 8	havodan	havo	NOUN	_	Case=Abl|Number=Sing	9	obl	9:obl	_
 9	razvedka	razvedka	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	qilindi	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	9	compound	9:compound	SpaceAfter=No
+10	qilindi	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 153
@@ -2399,7 +2399,7 @@
 5	asosiy	asosiy	ADJ	_	_	6	amod	6:amod	_
 6	vazirlarni	vazir	NOUN	_	Case=Acc|Number=Plur	7	obj	7:obj	_
 7	saqlab	saqla	VERB	_	VerbForm=Conv	0	root	0:root	_
-8	qoladi	qol	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	7	compound	7:compound	_
+8	qoladi	qol	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	7	compound:lvc	7:compound:lvc	_
 9	va	va	CCONJ	_	_	12	cc	12:cc	_
 10	radikal	radikal	ADJ	_	_	11	amod	11:amod	_
 11	o‘zgarishlardan	o‘zgarish	NOUN	_	Case=Abl|Number=Plur	12	obj	12:obj	_
@@ -2443,7 +2443,7 @@
 12	ko‘chat	ko‘chat	NOUN	_	Case=Nom|Number=Sing	13	obj	13:obj	_
 13	ekish	ek	VERB	_	VerbForm=Vnoun	14	xcomp	14:xcomp	_
 14	reja	reja	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-15	qilingan	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	14	compound	14:compound	SpaceAfter=No
+15	qilingan	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = 156
@@ -2455,7 +2455,7 @@
 5	bilan	bilan	ADP	_	_	4	case	4:case	_
 6	savdoni	savdo	NOUN	_	Case=Acc|Number=Sing	7	obj	7:obj	_
 7	yo‘lga	yo‘l	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-8	qo‘yishi	qo‘y	VERB	_	VerbForm=Vnoun	7	compound	7:compound	_
+8	qo‘yishi	qo‘y	VERB	_	VerbForm=Vnoun	7	compound:lvc	7:compound:lvc	_
 9	mumkin	mumkin	AUX	_	VerbForm=Fin	7	aux	7:aux	SpaceAfter=No
 10	.	.	PUNCT	_	_	7	punct	7:punct	_
 
@@ -2468,9 +2468,9 @@
 5	norozilik	norozilik	NOUN	_	Case=Nom|Number=Sing	6	compound	6:compound	_
 6	namoyishlariga	namoyish	NOUN	_	Case=Dat|Number=Plur	7	obj	7:obj	_
 7	sabab	sabab	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	bo‘ldi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	_
+8	bo‘ldi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	_
 9	va	va	CCONJ	_	_	13	cc	13:cc	_
-10	natijada	natija	NOUN	_	Case=Loc|Number=Sing	13	advmod	13:advmod	_
+10	natijada	natija	NOUN	_	Case=Loc|Number=Sing	13	obl	13:obl	_
 11	ba’zi	ba’zi	DET	_	_	12	det	12:det	_
 12	do‘konlar	do‘kon	NOUN	_	Case=Nom|Number=Plur	13	nsubj	13:nsubj	_
 13	yoqib	yoq	VERB	_	VerbForm=Conv	7	conj	7:conj	_
@@ -2522,7 +2522,7 @@
 11	hissa	hissa	NOUN	_	Case=Nom|Number=Sing	12	nmod	12:nmod	_
 12	miqdorida	miqdor	NOUN	_	Case=Loc|Number=Sing	13	obl	13:obl	_
 13	haq	haq	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-14	to‘lanadi	to‘la	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	compound	13:compound	SpaceAfter=No
+14	to‘lanadi	to‘la	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	compound:lvc	13:compound:lvc	SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	13:punct	_
 
 # sent_id = 161
@@ -2535,7 +2535,7 @@
 6	kun	kun	NOUN	_	Case=Nom|Number=Sing	7	obl	7:obl	_
 7	ishlashga	ishla	VERB	_	Case=Dat|VerbForm=Vnoun	8	ccomp	8:ccomp	_
 8	umid	umid	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	qilmoqda	qil	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	qilmoqda	qil	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 162
@@ -2567,7 +2567,7 @@
 6	odamlar	odam	NOUN	_	Case=Nom|Number=Plur	8	nsubj	8:nsubj	_
 7	shifokorlarga	shifokor	NOUN	_	Case=Dat|Number=Plur	8	iobj	8:iobj	_
 8	murojaat	murojaat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	qilishmoqda	qil	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	qilishmoqda	qil	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 164
@@ -2586,7 +2586,7 @@
 12	shaxsiy	shaxsiy	ADJ	_	_	13	amod	13:amod	_
 13	tajribasi	tajriba	NOUN	_	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
 14	inobatga	inobat	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-15	olinadi	ol	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	compound	14:compound	SpaceAfter=No
+15	olinadi	ol	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = 165
@@ -2674,7 +2674,7 @@
 4	12	12	NUM	_	NumType=Card	5	nummod	5:nummod	_
 5	oy	oy	NOUN	_	Case=Nom|Number=Sing	6	obl	6:obl	_
 6	davom	davom	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	etgan	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	etgan	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 171
@@ -2691,7 +2691,7 @@
 10	apparatlarsiz	apparat	NOUN	_	Case=Nom|Number=Plur	12	obl	12:obl	_
 11	mustaqil	mustaqil	ADJ	_	_	12	advmod	12:advmod	_
 12	nafas	nafas	NOUN	_	Case=Nom|Number=Sing	6	conj	6:conj	_
-13	olmoqda	ol	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	compound	12:compound	SpaceAfter=No
+13	olmoqda	ol	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 172
@@ -2707,7 +2707,7 @@
 9	samolyot	samolyot	NOUN	_	Case=Nom|Number=Sing	10	nmod	10:nmod	_
 10	komandiri	komandir	NOUN	_	Case=Nom|Number=Sing	5	conj	5:conj	_
 11	halok	halok	PART	_	_	0	root	0:root	_
-12	bo‘ldi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	bo‘ldi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 173
@@ -2795,7 +2795,7 @@
 10	odam	odam	NOUN	_	Case=Nom|Number=Sing	12	nsubj	12:nsubj	_
 11	shifokorlarga	shifokor	NOUN	_	Case=Dat|Number=Plur	12	obj	12:obj	_
 12	murojaat	murojaat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-13	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound	12:compound	SpaceAfter=No
+13	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	17:punct	_
 15	bir	bir	NUM	_	NumType=Card	16	nummod	16:nummod	_
 16	kishi	kishi	NOUN	_	Case=Nom|Number=Sing	17	nsubj	17:nsubj	_
@@ -2814,7 +2814,7 @@
 7	o‘z	o‘z	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod	8:nmod	_
 8	kuchini	kuch	NOUN	_	Case=Acc|Number=Sing	9	obj	9:obj	_
 9	safarbar	safarbar	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	qilmoqda	qil	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	qilmoqda	qil	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 179
@@ -2850,7 +2850,7 @@
 14	qattiq	qattiq	ADJ	_	_	15	amod	15:amod	_
 15	qarshiligimizga	qarshilik	NOUN	_	Case=Dat|Number=Sing	16	iobj	16:iobj	_
 16	duch	duch	PART	_	_	0	root	0:root	_
-17	kelishadi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	compound	16:compound	SpaceAfter=No
+17	kelishadi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	16	compound:lvc	16:compound:lvc	SpaceAfter=No
 18	.	.	PUNCT	_	_	16	punct	16:punct	_
 
 # sent_id = 181
@@ -2881,7 +2881,7 @@
 12	so‘mlik	so‘mlik	ADJ	_	_	13	amod	13:amod	_
 13	quvvat	quvvat	NOUN	_	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
 14	tashkil	tashkil	PART	_	_	6	conj	6:conj	_
-15	etiladi	et	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	compound	14:compound	SpaceAfter=No
+15	etiladi	et	VERB	_	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 183
@@ -2898,7 +2898,7 @@
 10	uyg‘unligiga	uyg‘unlik	NOUN	_	Case=Dat|Number=Sing	11	iobj	11:iobj	_
 11	erishishga	erish	VERB	_	Case=Dat|VerbForm=Vnoun	3	conj	3:conj	_
 12	yordam	yordam	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-13	beradi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound	12:compound	SpaceAfter=No
+13	beradi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 184
@@ -2917,8 +2917,8 @@
 12	,	,	PUNCT	_	_	11	punct	11:punct	_
 13	go‘zal	go‘zal	ADJ	_	_	14	amod	14:amod	_
 14	manzaralardan	manzara	NOUN	_	Case=Abl|Number=Plur	15	obl	15:obl	_
-15	bahramand	bahramand	ADJ	_	_	17	advcl	17:advcl	_
-16	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	15	compound	15:compound	_
+15	bahramand	bahramand	ADJ	_	_	16	compound	16:compound	_
+16	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	17	advcl	17:advcl	_
 17	yugurish	yugur	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	17:punct	_
 
@@ -2964,7 +2964,7 @@
 7	seysmologik	seysmologik	ADJ	_	_	8	amod	8:amod	_
 8	markaz	markaz	NOUN	_	Case=Nom|Number=Sing|Poss=Yes	9	nsubj	9:nsubj	_
 9	xabar	xabar	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 188
@@ -3043,14 +3043,14 @@
 1	Elektr	elektr	ADJ	_	_	2	compound	2:compound	_
 2	energiyasi	energiya	NOUN	_	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
 3	uzilishi	uzil	VERB	_	VerbForm=Vnoun	10	csubj	10:csubj	_
-4	birgina	bir	NUM	_	NumType=Card	5	advmod	5:advmod	_
+4	birgina	birgina	ADV	_	NumType=Card	5	advmod	5:advmod:emph	_
 5	Argentinaning	Argentina	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	6	nmod	6:nmod	_
 6	o‘zida	o‘z	PRON	_	Case=Loc|Number=Sing	10	obl	10:obl	_
 7	48	48	NUM	_	NumType=Card	9	nummod	9:nummod	_
 8	million	million	NUM	_	NumType=Card	7	compound	7:compound	_
 9	kishiga	kishi	NOUN	_	Case=Dat|Number=Sing	10	obj	10:obj	_
 10	ta’sir	ta’sir	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	ko‘rsatgan	ko‘rsat	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound	10:compound	SpaceAfter=No
+11	ko‘rsatgan	ko‘rsat	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 193
@@ -3081,7 +3081,7 @@
 6	harorat	harorat	NOUN	_	_	7	nmod	7:nmod	_
 7	rekordini	rekord	NOUN	_	Case=Acc|Number=Sing	8	obj	8:obj	_
 8	qayd	qayd	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 195
@@ -3095,7 +3095,7 @@
 7	yanvarga	yanvar	NOUN	_	Case=Dat|Number=Sing	9	obl	9:obl	_
 8	qadar	qadar	ADP	_	_	7	case	7:case	_
 9	amal	amal	NOUN	_	_	0	root	0:root	_
-10	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 196
@@ -3119,7 +3119,7 @@
 17	va	va	CCONJ	_	_	18	cc	18:cc	_
 18	shijoatni	shijoat	NOUN	_	Case=Acc	7	conj	7:conj	_
 19	talab	talab	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-20	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	compound	19:compound	SpaceAfter=No
+20	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	compound:lvc	19:compound:lvc	SpaceAfter=No
 21	.	.	PUNCT	_	_	19	punct	19:punct	_
 
 # sent_id = 197
@@ -3275,7 +3275,7 @@
 9	necha	necha	PRON	_	_	8	compound	8:compound	_
 10	shaxslar	shaxs	NOUN	_	Case=Nom|Number=Plur	11	nsubj	11:nsubj	_
 11	vafot	vafot	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-12	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 206
@@ -3288,7 +3288,7 @@
 6	rasmiy	rasmiy	ADJ	_	_	15	ccomp	15:ccomp	_
 7	emasligi	emas	AUX	_	Case=Nom|Number=Sing	6	cop	6:cop	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	9:punct	_
-9	sababi	sabab	NOUN	_	_	14	mark	14:mark	_
+9	sababi	sabab	ADP	_	_	14	mark	14:mark	_
 10	davlat	davlat	NOUN	_	Case=Nom|Number=Sing	11	nmod	11:nmod	_
 11	miqyosida	miqyos	NOUN	_	Case=Loc|Number=Sing	14	obl	14:obl	_
 12	bunday	bunday	DET	_	PronType=Dem	13	amod	13:amod	_
@@ -3321,7 +3321,7 @@
 4	karnavallarida	karnaval	NOUN	_	Case=Loc|Number=Plur	5	obl	5:obl	_
 5	qatnashayotgandek	qatnash	VERB	_	VerbForm=Part|Voice=Pass	6	advcl	6:advcl	_
 6	his	his	NOUN	_	_	0	root	0:root	_
-7	qildim	qil	VERB	_	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	6	compound	6:compound	_
+7	qildim	qil	VERB	_	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	_
 8	ochigʻi	ochigʻi	ADV	_	_	6	advmod	6:advmod	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	6:punct	_
 
@@ -3356,7 +3356,7 @@
 13	bronza	bronza	NOUN	_	Case=Nom|Number=Sing	5	conj	5:conj	_
 14	medallarini	medal	NOUN	_	Case=Acc|Number=Plur	15	obj	15:obj	_
 15	qo`lga	qo`l	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-16	kiritishgan	kirit	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	compound	15:compound	SpaceAfter=No
+16	kiritishgan	kirit	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	compound:lvc	15:compound:lvc	SpaceAfter=No
 17	.	.	PUNCT	_	_	16	punct	16:punct	_
 
 # sent_id = 211
@@ -3373,7 +3373,7 @@
 10	tinch	tinch	ADJ	_	_	11	amod	11:amod	_
 11	aholi	aholi	NOUN	_	Case=Nom|Number=Sing	12	nsubj	12:nsubj	_
 12	halok	halok	PART	_	_	0	root	0:root	_
-13	bo`ldi	bo`ldi	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound	12:compound	SpaceAfter=No
+13	bo`ldi	bo`ldi	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound:lvc	12:compound:lvc	SpaceAfter=No
 14	,	,	PUNCT	_	_	18	punct	18:punct	_
 15	yana	yana	ADV	_	_	16	advmod	16:advmod	_
 16	56	56	NUM	_	NumType=Card	17	nummod	17:nummod	_
@@ -3405,7 +3405,7 @@
 6	dezinfeksiya	dezinfeksiya	NOUN	_	Case=Nom|Number=Sing	7	nmod	7:nmod	_
 7	tadbirlari	tadbir	NOUN	_	Case=Nom|Number=Plur	8	nsubj	8:nsubj	_
 8	amalga	amal	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-9	oshirilmoqda	oshir	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	compound	8:compound	SpaceAfter=No
+9	oshirilmoqda	oshir	VERB	_	Aspect=Prog|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 214
@@ -3420,7 +3420,7 @@
 8	majlislari	majlis	NOUN	_	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
 9	ham	ham	ADV	_	_	10	advmod	10:advmod	_
 10	tashkil	tashkil	PART	_	_	0	root	0:root	_
-11	qilindi	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	10	compound	10:compound	SpaceAfter=No
+11	qilindi	qil	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 215
@@ -3434,7 +3434,7 @@
 7	chegarachilariga	chegarachi	NOUN	_	Case=Dat|Number=Plur	9	obj	9:obj	_
 8	qarata	qarata	ADP	_	_	7	case	7:case	_
 9	o`q	o`q	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	uzgan	uz	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	uzgan	uz	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 216
@@ -3478,7 +3478,7 @@
 25	korpus	korpus	NOUN	_	Case=Nom|Number=Sing	26	nmod	26:nmod	_
 26	vakillari	vakil	NOUN	_	Case=Nom|Number=Plur	2	conj	2:conj	_
 27	ishtirok	ishtirok	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-28	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	27	compound	27:compound	SpaceAfter=No
+28	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	27	compound:lvc	27:compound:lvc	SpaceAfter=No
 29	.	.	PUNCT	_	_	27	punct	27:punct	_
 
 # sent_id = 218
@@ -3515,7 +3515,7 @@
 3	tortishuv	tortishuv	NOUN	_	Case=Nom|Number=Sing	5	obl	5:obl	_
 4	haqida	haqida	ADP	_	_	3	case	3:case	_
 5	hikoya	hikoya	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-6	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	compound	5:compound	SpaceAfter=No
+6	qiladi	qil	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	compound:lvc	5:compound:lvc	SpaceAfter=No
 7	.	.	PUNCT	_	_	5	punct	5:punct	_
 
 # sent_id = 221
@@ -3555,7 +3555,7 @@
 9	xislatlarning	xislat	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	10	nmod	10:nmod	_
 10	asosini	asos	NOUN	_	Case=Acc|Number=Sing	11	obj	11:obj	_
 11	tashkil	tashkil	PART	_	_	0	root	0:root	_
-12	etadi	et	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	etadi	et	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 224
@@ -3567,7 +3567,7 @@
 5	oʻz	oʻz	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nmod	6:nmod	_
 6	ishini	ish	NOUN	_	Case=Acc|Number=Sing	7	obj	7:obj	_
 7	davom	davom	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	ettiradi	et	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	ettiradi	et	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 225
@@ -3581,7 +3581,7 @@
 7	mazmun-mohiyatiga	mazmun-mohiyat	NOUN	_	Case=Dat|Number=Sing	9	iobj	9:iobj	_
 8	qisqacha	qisqacha	ADV	_	_	9	advmod	9:advmod	_
 9	izoh	izoh	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 226
@@ -3600,9 +3600,9 @@
 12	kelajagini	kelajak	NOUN	_	Case=Acc|Number=Sing	13	obj	13:obj	_
 13	qurish	qur	VERB	_	VerbForm=Vnoun	8	conj	8:conj	_
 14	huquqi	huquq	NOUN	_	Case=Nom|Number=Sing	18	nsubj	18:nsubj	_
-15	yana	yana	ADV	_	_	16	advmod	16:advmod	_
-16	bir	bir	NUM	_	NumType=Card	18	advmod	18:advmod	_
-17	bor	bor	NOUN	_	_	16	compound	16:compound	_
+15	yana	yana	ADV	_	_	18	advmod	18:advmod	_
+16	bir	bir	NUM	_	NumType=Card	15	compound	15:compound	_
+17	bor	bor	NOUN	_	_	15	compound	15:compound	_
 18	taʼkidlandi	taʼkidla	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	0:root	SpaceAfter=No
 19	.	.	PUNCT	_	_	18	punct	18:punct	_
 
@@ -3683,7 +3683,7 @@
 12	foizlik	foizlik	ADJ	_	_	13	amod	13:amod	_
 13	chegirma	chegirma	NOUN	_	Case=Nom|Number=Sing	14	nsubj	14:nsubj	_
 14	taqdim	taqdim	NOUN	_	_	0	root	0:root	_
-15	etiladi	et	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Voice=Pass	14	compound	14:compound	SpaceAfter=No
+15	etiladi	et	VERB	_	Mood=Ind|Tense=Fut|VerbForm=Fin|Voice=Pass	14	compound:lvc	14:compound:lvc	SpaceAfter=No
 16	.	.	PUNCT	_	_	14	punct	14:punct	_
 
 # sent_id = 232
@@ -3692,7 +3692,7 @@
 2	davrida	davr	NOUN	_	Case=Loc|Number=Sing	6	obl	6:obl	_
 3	vaziyat	vaziyat	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 4	har	har	DET	_	PronType=Tot	5	compound	5:compound	_
-5	tomonlama	tomon	NOUN	_	_	6	advmod	6:advmod	_
+5	tomonlama	tomonlama	ADV	_	_	6	advmod	6:advmod	_
 6	oʻrganib	oʻrgan	VERB	_	VerbForm=Conv	0	root	0:root	_
 7	chiqildi	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
@@ -3712,7 +3712,7 @@
 11	ming	ming	NUM	_	NumType=Card	10	compound	10:compound	_
 12	soʻmni	soʻm	NOUN	_	Case=Acc|Number=Sing	13	obl	13:obl	_
 13	tashkil	tashkil	PART	_	_	0	root	0:root	_
-14	etadi	et	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	compound	13:compound	SpaceAfter=No
+14	etadi	et	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	compound:lvc	13:compound:lvc	SpaceAfter=No
 15	.	.	PUNCT	_	_	13	punct	13:punct	_
 
 # sent_id = 234
@@ -3724,7 +3724,7 @@
 5	toʻrtta	toʻrt	NUM	_	NumType=Card	6	nummod	6:nummod	_
 6	zilzila	zilzila	NOUN	_	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
 7	yuz	yuz	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 235
@@ -3786,7 +3786,7 @@
 5	boʻyicha	boʻyicha	ADP	_	_	4	case	4:case	_
 6	mutasaddilar	mutasaddi	NOUN	_	Case=Nom|Number=Plur	7	nsubj	7:nsubj	_
 7	hisobot	hisobot	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 240
@@ -3810,7 +3810,7 @@
 17	paxta	paxta	NOUN	_	Case=Nom|Number=Sing	18	nmod	18:nmod	_
 18	tolasi	tola	NOUN	_	Case=Nom|Number=Sing	10	conj	10:conj	_
 19	ishlab	ishla	VERB	_	VerbForm=Conv	0	root	0:root	_
-20	chiqaradi	chiqar	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	compound	19:compound	SpaceAfter=No
+20	chiqaradi	chiqar	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	19	compound:lvc	19:compound:lvc	SpaceAfter=No
 21	.	.	PUNCT	_	_	19	punct	19:punct	_
 
 # sent_id = 241
@@ -3838,7 +3838,7 @@
 5	hech	hech	DET	_	PronType=Neg	7	iobj	7:iobj	_
 6	kimga	kim	PRON	_	Case=Dat|Number=Sing|PronType=Int	5	compound	5:compound	_
 7	yoqqani	yoq	VERB	_	Person=3|VerbForm=Part	0	root	0:root	_
-8	yoʻq	yoʻq	VERB	_	Polarity=Neg	7	aux	7:aux	SpaceAfter=No
+8	yoʻq	yoʻq	AUX	_	Polarity=Neg	7	aux	7:aux	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 243
@@ -3861,7 +3861,7 @@
 6	shu	shu	DET	_	_	7	det	7:det	_
 7	tilda	til	NOUN	_	Case=Loc|Number=Sing	8	obl	8:obl	_
 8	zabt	zabt	PART	_	_	0	root	0:root	_
-9	etgan	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	etgan	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 245
@@ -3883,15 +3883,15 @@
 3	marafonida	marafon	NOUN	_	Case=Loc|Number=Sing	12	obl	12:obl	_
 4	tajribali	tajribali	ADJ	_	_	5	nmod	5:nmod	_
 5	sportchilar	sportchi	NOUN	_	Case=Nom|Number=Plur	12	nsubj	12:nsubj	_
-6	bilan	bilan	ADP	_	_	5	mark	5:mark	_
+6	bilan	bilan	ADP	_	_	5	case	5:case	_
 7	bir	bir	NUM	_	NumType=Card	6	flat	6:flat	_
 8	qatorda	qator	NOUN	_	Case=Loc|Number=Sing	6	flat	6:flat	_
 9	yangi	yangi	ADJ	_	_	10	amod	10:amod	_
 10	yuguruvchilar	yuguruvchi	NOUN	_	Case=Nom|Number=Plur	5	conj	5:conj	_
 11	ham	ham	ADV	_	_	12	advmod	12:advmod	_
 12	ishtirok	ishtirok	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-13	etishi	et	VERB	_	VerbForm=Vnoun	12	compound	12:compound	_
-14	mumkin	mumkin	AUX	_	VerbForm=Fin	12	aux	12:aux	SpaceAfter=No
+13	etishi	et	VERB	_	VerbForm=Vnoun	12	compound:lvc	12:compound:lvc	_
+14	mumkin	mumkin	AUX	_	VerbForm=Fin	13	aux	13:aux	SpaceAfter=No
 15	.	.	PUNCT	_	_	12	punct	12:punct	_
 
 # sent_id = 247
@@ -3904,7 +3904,7 @@
 6	A.	A.	PROPN	_	Abbr=Yes	5	flat	5:flat	_
 7	Abdurashidov	Abdurashidov	PROPN	_	Case=Nom|Number=Sing	5	flat	5:flat	_
 8	asos	asos	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	solgan	sol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	solgan	sol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 248
@@ -3918,7 +3918,7 @@
 7	rasmiy	rasmiy	ADJ	_	_	8	amod	8:amod	_
 8	tashrifi	tashrif	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 9	davom	davom	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	etmoqda	et	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	etmoqda	et	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 249
@@ -3929,8 +3929,8 @@
 4	uyida	uy	NOUN	_	Case=Loc|Number=Sing	11	obl	11:obl	_
 5	131	131	NUM	_	NumType=Card	10	nummod	10:nummod	_
 6	nafar	nafar	NOUN	_	Case=Nom|Number=Sing	5	compound	5:compound	_
-7	4-16	4-16	NUM	_	NumType=Range	8	nummod	8:nummod	_
-8	yoshgacha	yosh	NOUN	_	Case=Dat|Number=Sing	9	advmod	9:advmod	_
+7	4-16	4-16	NUM	_	NumType=Range	9	obl	9:obl	_
+8	yoshgacha	yosh	NOUN	_	Case=Dat|Number=Sing	7	compound	7:compound	_
 9	boʻlgan	boʻl	VERB	_	VerbForm=Part	10	acl	10:acl	_
 10	bolalar	bola	NOUN	_	Case=Nom|Number=Plur	11	nsubj	11:nsubj	_
 11	tarbiyalanmoqda	tarbiyala	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -3970,7 +3970,7 @@
 4	ko‘rgan	ko‘r	VERB	_	VerbForm=Part	5	acl	5:acl	_
 5	bozorqo‘m	bozorqo‘m	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 6	ko‘makka	ko‘mak	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-7	keldi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	keldi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	9:punct	_
 9	ammo	ammo	CCONJ	_	_	15	cc	15:cc	_
 10	odatiga	odat	NOUN	_	Case=Dat|Number=Sing	15	obl	15:obl	_
@@ -4032,7 +4032,7 @@
 11	munosabatini	munosabat	NOUN	_	Case=Acc|Number=Sing	13	obj	13:obj	_
 12	alohida	alohida	ADJ	_	_	13	advmod	13:advmod	_
 13	qayd	qayd	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-14	qilmasdan	qil	VERB	_	Polarity=Neg|VerbForm=Conv	13	compound	13:compound	_
+14	qilmasdan	qil	VERB	_	Polarity=Neg|VerbForm=Conv	13	compound:lvc	13:compound:lvc	_
 15	o‘tolmaymiz	o‘tol	VERB	_	Mood=Ind|Number=Plur|Person=1|Polarity=Neg|Tense=Pres|VerbForm=Fin	13	compound	13:compound	SpaceAfter=No
 16	!	!	PUNCT	_	_	13	punct	13:punct	_
 
@@ -4104,9 +4104,9 @@
 
 # sent_id = 260
 # text = Nega ma’lum qilmadingiz, ayangizning ko‘zlagan qizlari bormi?
-1	Nega	nega	PRON	_	PronType=Int	2	advmod	2:advmod	_
+1	Nega	nega	ADV	_	PronType=Int	3	advmod	3:advmod	_
 2	ma’lum	ma’lum	ADJ	_	_	0	root	0:root	_
-3	qilmadingiz	qil	VERB	_	Mood=Int|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	2	compound	2:compound	SpaceAfter=No
+3	qilmadingiz	qil	VERB	_	Mood=Int|Person=3|Polarity=Neg|Tense=Past|VerbForm=Fin	2	compound:lvc	2:compound:lvc	SpaceAfter=No
 4	,	,	PUNCT	_	_	8	punct	8:punct	_
 5	ayangizning	aya	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	7	nmod	7:nmod	_
 6	ko‘zlagan	ko‘zla	VERB	_	VerbForm=Part	7	acl	7:acl	_
@@ -4123,7 +4123,7 @@
 5	undan	u	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	6	obl	6:obl	_
 6	pastroq	past	ADJ	_	Degree=Cmp	2	conj	2:conj	_
 7	xurrak	xurrak	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	tortmoqda	tort	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	tortmoqda	tort	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 262
@@ -4158,7 +4158,7 @@
 2	ziyrakliging	ziyraklik	NOUN	_	Case=Nom|Number=Sing	6	obl	6:obl	_
 3	bilan	bilan	ADP	_	_	2	case	2:case	_
 4	nahot	nahot	PART	_	_	6	nsubj	6:nsubj	_
-5	shuni	shu	PRON	_	Case=Acc|Number=Sing|PronType=Dem	6	advmod	6:advmod	_
+5	shuni	shu	PRON	_	Case=Acc|Number=Sing|PronType=Dem	6	obj	6:obj	_
 6	payqamasang	payqa	VERB	_	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 7	!	!	PUNCT	_	_	6	punct	6:punct	_
 
@@ -4184,7 +4184,7 @@
 4	odamlarning	odam	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	5	nmod	5:nmod	_
 5	yolvorishi	yolvor	VERB	_	VerbForm=Vnoun	6	nsubj	6:nsubj	_
 6	kor	kor	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qilar	qil	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	6	compound	6:compound	_
+7	qilar	qil	VERB	_	Aspect=Prog|Mood=Ind|Number=Sing|Person=3	6	compound:lvc	6:compound:lvc	_
 8	edi	edi	AUX	_	Tense=Past	7	cop	7:cop	SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	12:punct	_
 10	na	na	CCONJ	_	_	12	cc	12:cc	_
@@ -4408,7 +4408,7 @@
 2	tovush	tovush	NOUN	_	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 3	hammayoqni	hammayoq	PRON	_	Case=Nom|Number=Sing|PronType=Tot	4	obj	4:obj	_
 4	larzaga	larza	NOUN	_	Case=Dat|Number=Plur	0	root	0:root	_
-5	keltirdi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound	4:compound	SpaceAfter=No
+5	keltirdi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound:lvc	4:compound:lvc	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 283
@@ -4491,7 +4491,7 @@
 6	turib	tur	VERB	_	VerbForm=Conv	8	advcl	8:advcl	_
 7	ho‘kizidan	ho‘kiz	NOUN	_	Case=Abl|Number=Sing	8	obl	8:obl	_
 8	xabar	xabar	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	oldi	ol	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	oldi	ol	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 289
@@ -4517,7 +4517,7 @@
 4	ikkita	ikki	NUM	_	NumType=Card	5	nummod	5:nummod	_
 5	tustovuq	tustovuq	NOUN	_	Case=Nom|Number=Sing	6	obj	6:obj	_
 6	in’om	in’om	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qildi	qil	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	qildi	qil	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 291
@@ -4539,7 +4539,7 @@
 3	og‘irlashib	og‘irlash	VERB	_	VerbForm=Vnoun	0	root	0:root	_
 4	ketdi	ket	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	compound	3:compound	SpaceAfter=No
 5	;	;	PUNCT	_	_	4	punct	4:punct	_
-6	ikki	ikki	NUM	_	NumType=Card	12	advmod	12:advmod	_
+6	ikki	ikki	NUM	_	NumType=Card	12	obl	12:obl	_
 7	marta	marta	NOUN	_	Case=Nom|Number=Sing	6	compound	6:compound	_
 8	sekin	sekin	ADV	_	_	12	advmod	12:advmod	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	11:punct	_
@@ -4665,7 +4665,7 @@
 5	bosh	bosh	NOUN	_	Case=Nom|Number=Sing	6	amod	6:amod	_
 6	tomoniga	tomon	NOUN	_	Case=Dat|Number=Sing	7	obl	7:obl	_
 7	cho‘kka	cho‘kka	VERB	_	_	0	root	0:root	_
-8	tushdi	tush	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	_
+8	tushdi	tush	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	_
 9	va	va	CCONJ	_	_	14	cc	14:cc	_
 10	baland	baland	ADJ	_	_	11	amod	11:amod	_
 11	ovoz	ovoz	NOUN	_	Case=Nom|Number=Sing	14	obl	14:obl	_
@@ -4764,7 +4764,7 @@
 5	bulut	bulut	NOUN	_	Case=Nom|Number=Sing	6	nmod	6:nmod	_
 6	parchalari	parcha	NOUN	_	Case=Nom|Number=Plur	10	nsubj	10:nsubj	_
 7	oftobni	oftob	NOUN	_	Case=Acc|Number=Sing	10	obj	10:obj	_
-8	bir	bir	NUM	_	NumType=Card	10	advmod	10:advmod	_
+8	bir	bir	NUM	_	NumType=Card	10	obl	10:obl	_
 9	zumda	zum	NOUN	_	Case=Loc|Number=Sing	8	compound	8:compound	_
 10	yuz	yuz	NUM	_	NumType=Card	0	root	0:root	_
 11	ko‘yga	ko‘y	NOUN	_	Case=Dat|Number=Sing	10	compound	10:compound	_
@@ -4797,7 +4797,7 @@
 # sent_id = 311
 # text = Akramjonni bir nav quchoqlagan bo‘ldim, juvonga esa qo‘limning uchini berdim.
 1	Akramjonni	Akramjon	PROPN	_	Case=Acc|Number=Sing	4	obj	4:obj	_
-2	bir	bir	NUM	_	NumType=Card	4	advmod	4:advmod	_
+2	bir	bir	NUM	_	NumType=Card	4	obl	4:obl	_
 3	nav	nav	NOUN	_	Case=Nom|Number=Sing	2	compound	2:compound	_
 4	quchoqlagan	quchoqla	VERB	_	VerbForm=Part	0	root	0:root	_
 5	bo‘ldim	bo‘l	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	compound	4:compound	SpaceAfter=No
@@ -4815,11 +4815,11 @@
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	san’atchilarimiz	san’atchi	NOUN	_	Case=Nom|Number=Plur	1	conj	1:conj	_
 4	mana	mana	PRON	_	PronType=Dem	5	compound	5:compound	_
-5	shundoq	shundoq	PRON	_	PronType=Dem	6	advmod	6:advmod	_
+5	shundoq	shundoq	ADV	_	PronType=Dem	6	advmod	6:advmod	_
 6	yo‘qlab	yo‘qla	VERB	_	VerbForm=Conv	10	advcl	10:advcl	_
 7	kelishsa	kel	VERB	_	Mood=Cnd|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	6:punct	_
-9	qandoq	qandoq	PRON	_	PronType=Int	10	advmod	10:advmod	_
+9	qandoq	qandoq	ADV	_	PronType=Int	10	advmod	10:advmod	_
 10	yaxshi	yaxshi	ADJ	_	_	0	root	0:root	SpaceAfter=No
 11	!	!	PUNCT	_	_	10	punct	10:punct	_
 
@@ -4880,7 +4880,7 @@
 6	yarim	yarim	NUM	_	NumType=Card	7	nummod	7:nummod	_
 7	kechagacha	kecha	NOUN	_	Case=Dat|Number=Sing	8	obl	8:obl	_
 8	davom	davom	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	etdi	et	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 317
@@ -5106,7 +5106,7 @@
 5	arslonning	arslon	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	6	nmod	6:nmod	_
 6	kitobini	kitob	NOUN	_	Case=Acc|Number=Sing	7	obj	7:obj	_
 7	tanqid	tanqid	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	qilyaptiykin	qil	VERB	_	Aspect=Prog|Mood=Int|Person=3|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	qilyaptiykin	qil	VERB	_	Aspect=Prog|Mood=Int|Person=3|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	?	?	PUNCT	_	_	7	punct	7:punct	SpaceAfter=No
 10	!	!	PUNCT	_	_	7	punct	7:punct	_
 
@@ -5143,7 +5143,7 @@
 5	to‘kin-sochin	to‘kin-sochin	ADJ	_	_	6	amod	6:amod	_
 6	davriga	davr	NOUN	_	Case=Dat|Number=Sing	7	obl	7:obl	_
 7	to‘g‘ri	to‘g‘ri	ADJ	_	_	0	root	0:root	_
-8	keldi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	keldi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 337
@@ -5202,7 +5202,7 @@
 6	odob	odob	NOUN	_	Case=Nom|Number=Sing	8	obl	8:obl	_
 7	bilan	bilan	ADP	_	_	6	case	6:case	_
 8	jim	jim	ADV	_	_	0	root	0:root	_
-9	bo‘lishdi	bo‘l	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	compound	8:compound	SpaceAfter=No
+9	bo‘lishdi	bo‘l	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	compound:lvc	8:compound:lvc	SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	8:punct	_
 
 # sent_id = 341
@@ -5238,7 +5238,7 @@
 4	oldinroq	oldin	ADV	_	_	3	case	3:case	_
 5	xotini	xotin	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 6	qazo	qazo	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qilgan	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	_
+7	qilgan	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	_
 8	ekan	ekan	AUX	_	_	7	aux	7:aux	SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	6:punct	_
 
@@ -5286,7 +5286,7 @@
 9	charaqlab	charaqla	VERB	_	VerbForm=Conv	11	advcl	11:advcl	_
 10	kunga	kun	NOUN	_	Case=Dat|Number=Sing	11	iobj	11:iobj	_
 11	yuz	yuz	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-12	tutdi	tut	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	tutdi	tut	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 347
@@ -5350,7 +5350,7 @@
 7	yana	yana	ADV	_	_	9	advmod	9:advmod	_
 8	menga	menga	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	9	iobj	9:iobj	_
 9	ko‘z	ko‘z	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-10	tikdi	tik	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	tikdi	tik	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 351
@@ -5517,7 +5517,7 @@
 5	ko‘katlarni	ko‘kat	NOUN	_	Case=Acc|Number=Plur	7	obj	7:obj	_
 6	qulog‘idan	quloq	NOUN	_	Case=Abl|Number=Sing	7	obl	7:obl	_
 7	tortib	tort	VERB	_	VerbForm=Conv	0	root	0:root	_
-8	chiqargan	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	chiqargan	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 362
@@ -5536,7 +5536,7 @@
 
 # sent_id = 363
 # text = Yo‘q, ellikboshimiz Rahmonxo‘jaga xo‘rozni olib borib bergan edim, ishni bosdi-bosdi qilib yubordi.
-1	Yo‘q	yo‘q	INTJ	_	_	6	advmod	6:advmod	SpaceAfter=No
+1	Yo‘q	yo‘q	INTJ	_	_	6	discourse	6:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	ellikboshimiz	ellikboshi	NOUN	_	Case=Nom|Number=Sing	6	iobj	6:iobj	_
 4	Rahmonxo‘jaga	Rahmonxo‘ja	NOUN	_	Case=Dat|Number=Sing	3	flat	3:flat	_
@@ -5565,7 +5565,7 @@
 9	tepalik	tepalik	NOUN	_	Case=Nom|Number=Sing	11	obl	11:obl	_
 10	sari	sari	ADP	_	_	9	case	9:case	_
 11	yo‘l	yo‘l	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-12	olardim	ol	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	compound	11:compound	SpaceAfter=No
+12	olardim	ol	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	compound:lvc	11:compound:lvc	SpaceAfter=No
 13	.	.	PUNCT	_	_	11	punct	11:punct	_
 
 # sent_id = 365
@@ -5576,7 +5576,7 @@
 4	men	men	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Int	6	nsubj	6:nsubj	_
 5	ham	ham	ADV	_	_	6	advmod	6:advmod	_
 6	tan	tan	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	berdim	ber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	berdim	ber	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 366
@@ -5643,7 +5643,7 @@
 
 # sent_id = 371
 # text = Yo‘q, muhabbat mo‘jiza emas, buyuk qo‘rquvdir.
-1	Yo‘q	yo‘q	INTJ	_	_	4	advmod	4:advmod	SpaceAfter=No
+1	Yo‘q	yo‘q	INTJ	_	_	4	discourse	4:discourse	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	1:punct	_
 3	muhabbat	muhabbat	NOUN	_	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 4	mo‘jiza	mo‘jiza	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
@@ -5768,7 +5768,7 @@
 7	ovropalik	ovropalik	ADJ	_	_	8	amod	8:amod	_
 8	savdogar	savdogar	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 9	ishga	ish	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-10	oldi	ol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
+10	oldi	ol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound:lvc	9:compound:lvc	SpaceAfter=No
 11	.	.	PUNCT	_	_	9	punct	9:punct	_
 
 # sent_id = 380
@@ -5828,7 +5828,7 @@
 5	hamma	hamma	DET	_	PronType=Tot	6	det	6:det	_
 6	yoq	yoq	NOUN	_	Case=Nom|Number=Sing	7	nsubj	7:nsubj	_
 7	jimib	jim	VERB	_	VerbForm=Conv	0	root	0:root	_
-8	qoladi	qol	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	qoladi	qol	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 384
@@ -5862,11 +5862,11 @@
 # text = Tabg‘ach shu tariqa ota qavmini qullikka soldi…
 1	Tabg‘ach	Tabg‘ach	PROPN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 2	shu	shu	DET	_	PronType=Dem	3	compound	3:compound	_
-3	tariqa	tariqa	NOUN	_	Case=Nom|Number=Sing	6	advmod	6:advmod	_
+3	tariqa	tariqa	NOUN	_	Case=Nom|Number=Sing	6	obl	6:obl	_
 4	ota	ota	NOUN	_	Case=Nom|Number=Sing	5	nmod	5:nmod	_
 5	qavmini	qavm	NOUN	_	Case=Acc|Number=Sing	6	obj	6:obj	_
 6	qullikka	qullik	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-7	soldi	sol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	soldi	sol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	…	…	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 387
@@ -6029,7 +6029,7 @@
 2	shiddatiyu	shiddat	NOUN	_	Case=Nom|Number=Sing	7	obl	7:obl	_
 3	jasorati	jasorat	NOUN	_	Case=Nom|Number=Sing	2	conj	2:conj	_
 4	bilan	bilan	ADP	_	_	2	case	2:case	_
-5	nimagadir	nimaga	PRON	_	PronType=Int	7	advmod	7:advmod	_
+5	nimagadir	nimaga	ADV	_	PronType=Int	7	advmod	7:advmod	_
 6	onamdan	ona	NOUN	_	Case=Abl|Number=Sing	7	obl	7:obl	_
 7	hayiqardi	hayiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 8	.	.	PUNCT	_	_	7	punct	7:punct	_
@@ -6073,10 +6073,10 @@
 5	noma’lum	noma’lum	ADJ	_	_	6	amod	6:amod	_
 6	tuyg‘ularni	tuyg‘u	NOUN	_	Case=Acc|Number=Plur	10	obj	10:obj	_
 7	Tangrim	Tangri	PROPN	_	Case=Nom|Number=Sing	10	nsubj	10:nsubj	_
-8	ne	ne	PRON	_	PronType=Int	10	advmod	10:advmod	_
+8	ne	ne	ADV	_	PronType=Int	10	advmod	10:advmod	_
 9	uchun	uchun	ADP	_	_	8	compound	8:compound	_
 10	bino	bino	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-11	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound	10:compound	SpaceAfter=No
+11	qildi	qil	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound:lvc	10:compound:lvc	SpaceAfter=No
 12	?	?	PUNCT	_	_	10	punct	10:punct	_
 
 # sent_id = 404
@@ -6213,7 +6213,7 @@
 6	yoy	yoy	NOUN	_	Case=Nom|Number=Sing	2	conj	2:conj	_
 7	yasashni	yasa	VERB	_	Case=Acc|VerbForm=Vnoun	8	xcomp	8:xcomp	_
 8	kashf	kashf	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-9	qilib	qil	VERB	_	VerbForm=Conv	8	compound	8:compound	_
+9	qilib	qil	VERB	_	VerbForm=Conv	8	compound:lvc	8:compound:lvc	_
 10	olishgan	ol	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	compound	9:compound	SpaceAfter=No
 11	.	.	PUNCT	_	_	8	punct	8:punct	_
 
@@ -6226,7 +6226,7 @@
 5	tarannumi	tarannum	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 6	yangraganiga	yangra	VERB	_	_	7	ccomp	7:ccomp	_
 7	hayron	hayron	ADJ	_	_	0	root	0:root	_
-8	qolasiz	qol	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	qolasiz	qol	VERB	_	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 415
@@ -6250,7 +6250,7 @@
 4	qishloq	qishloq	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 5	yengil	yengil	ADJ	_	_	6	advmod	6:advmod	_
 6	nafas	nafas	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	oladi	ol	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	oladi	ol	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	.	.	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 417
@@ -6318,7 +6318,7 @@
 2	har	har	DET	_	PronType=Tot	4	det	4:det	_
 3	yetti	yetti	NUM	_	NumType=Card	4	nummod	4:nummod	_
 4	avlodda	avlod	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
-5	bir	bir	NUM	_	NumType=Card	6	advmod	6:advmod	_
+5	bir	bir	NUM	_	NumType=Card	6	obl	6:obl	_
 6	qaytadi	qayt	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	6:punct	_
 
@@ -6331,7 +6331,7 @@
 5	sizlarni	siz	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obl	7:obl	_
 6	deb	de	VERB	_	VerbForm=Conv	5	case	5:case	_
 7	zahmat	zahmat	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-8	chekdim	chek	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	compound	7:compound	SpaceAfter=No
+8	chekdim	chek	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	compound:lvc	7:compound:lvc	SpaceAfter=No
 9	.	.	PUNCT	_	_	7	punct	7:punct	_
 
 # sent_id = 423
@@ -6364,7 +6364,7 @@
 # sent_id = 425
 # text = Momaqaldiroq qanday hosil bo‘lishini ko‘rganmisiz?
 1	Momaqaldiroq	momaqaldiroq	NOUN	_	Case=Nom|Number=Sing	3	nsubj	3:nsubj	_
-2	qanday	qanday	PRON	_	PronType=Int	3	advmod	3:advmod	_
+2	qanday	qanday	ADV	_	PronType=Int	3	advmod	3:advmod	_
 3	hosil	hosil	NOUN	_	Case=Nom|Number=Sing	5	ccomp	5:ccomp	_
 4	bo‘lishini	bo‘l	VERB	_	Case=Acc|VerbForm=Vnoun	3	compound	3:compound	_
 5	ko‘rganmisiz	ko‘r	VERB	_	Mood=Int|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	SpaceAfter=No
@@ -6392,7 +6392,7 @@
 2	bir	bir	NUM	_	NumType=Card	3	nummod	3:nummod	_
 3	butunligiga	butunlik	NOUN	_	Case=Dat|Number=Sing	4	obl	4:obl	_
 4	putur	putur	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-5	yetdi	yet	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound	4:compound	SpaceAfter=No
+5	yetdi	yet	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound:lvc	4:compound:lvc	SpaceAfter=No
 6	!	!	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 428
@@ -6418,7 +6418,7 @@
 4	eldaman	el	NOUN	_	Case=Loc|Number=Sing	6	xcomp	6:xcomp	_
 5	deb	de	VERB	_	VerbForm=Conv	4	case	4:case	_
 6	his	his	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-7	qilmang	qil	VERB	_	Mood=Imp|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	compound	6:compound	SpaceAfter=No
+7	qilmang	qil	VERB	_	Mood=Imp|Person=3|Polarity=Neg|Tense=Pres|VerbForm=Fin	6	compound:lvc	6:compound:lvc	SpaceAfter=No
 8	!	!	PUNCT	_	_	6	punct	6:punct	_
 
 # sent_id = 430
@@ -6469,7 +6469,7 @@
 1	Olimlar	olim	NOUN	_	Case=Nom|Number=Plur	3	nsubj	3:nsubj	_
 2	yolg‘izlikka	yolg‘izlik	NOUN	_	Case=Dat|Number=Sing	3	iobj	3:iobj	_
 3	mahkum	mahkum	ADJ	_	_	0	root	0:root	_
-4	bo‘larmikinlar	bo‘l	VERB	_	Mood=Int|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	compound	3:compound	SpaceAfter=No
+4	bo‘larmikinlar	bo‘l	VERB	_	Mood=Int|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	3	compound:lvc	3:compound:lvc	SpaceAfter=No
 5	?	?	PUNCT	_	_	3	punct	3:punct	_
 
 # sent_id = 434
@@ -6492,7 +6492,7 @@
 4	xalq	xalq	NOUN	_	Case=Nom|Number=Sing	6	nsubj	6:nsubj	_
 5	meni	men	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	6:obj	_
 6	bag‘riga	bag‘ir	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-7	bosgan	bos	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	6:compound	_
+7	bosgan	bos	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound:lvc	6:compound:lvc	_
 8	ekan-ku	ekan	AUX	_	_	7	cop	7:cop	SpaceAfter=No
 9	?	?	PUNCT	_	_	6	punct	6:punct	_
 
@@ -6572,7 +6572,7 @@
 
 # sent_id = 442
 # text = Nega el orasidan iste’dodlar hamisha chiqavermaydi?
-1	Nega	nega	PRON	_	PronType=Int	6	advmod	6:advmod	_
+1	Nega	nega	ADV	_	PronType=Int	6	advmod	6:advmod	_
 2	el	el	NOUN	_	Case=Nom|Number=Sing	3	nmod	3:nmod	_
 3	orasidan	ora	NOUN	_	Case=Abl|Number=Sing	6	obl	6:obl	_
 4	iste’dodlar	iste’dod	NOUN	_	Case=Nom|Number=Plur	6	nsubj	6:nsubj	_
@@ -6720,7 +6720,7 @@
 2	nag‘masi	nag‘ma	NOUN	_	Case=Nom|Number=Sing	4	nsubj	4:nsubj	_
 3	yanada	yanada	ADV	_	_	4	advmod	4:advmod	_
 4	avjiga	avj	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-5	chiqdi	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound	4:compound	SpaceAfter=No
+5	chiqdi	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	compound:lvc	4:compound:lvc	SpaceAfter=No
 6	.	.	PUNCT	_	_	4	punct	4:punct	_
 
 # sent_id = 454
@@ -6961,7 +6961,7 @@
 3	o‘ylar	o‘y	NOUN	_	Case=Nom|Number=Plur	5	obl	5:obl	_
 4	bilan	bilan	ADP	_	_	3	case	3:case	_
 5	hayot	hayot	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
-6	kechiradi	kechir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound	5:compound	_
+6	kechiradi	kechir	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	compound:lvc	5:compound:lvc	_
 7	Bibi	Bibi	PROPN	_	Case=Nom|Number=Sing	5	nsubj	5:nsubj	_
 8	Salima	Salima	PROPN	_	Case=Nom|Number=Sing	7	flat	7:flat	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	5:punct	_
@@ -7243,7 +7243,7 @@
 8	qizalog‘i	qizaloq	NOUN	_	Case=Nom|Number=Sing	3	conj	3:conj	_
 9	ham	ham	ADV	_	_	10	advmod	10:advmod	_
 10	ko‘zga	ko‘z	NOUN	_	Case=Dat|Number=Sing	0	root	0:root	_
-11	tashlanar	tashlan	VERB	_	Person=3|Tense=Past|VerbForm=Fin	10	compound	10:compound	_
+11	tashlanar	tashlan	VERB	_	Person=3|Tense=Past|VerbForm=Fin	10	compound:lvc	10:compound:lvc	_
 12	edi	edi	AUX	_	Tense=Past	11	cop	11:cop	SpaceAfter=No
 13	.	.	PUNCT	_	_	10	punct	10:punct	_
 
@@ -7313,7 +7313,7 @@
 1	Hazrati	hazrat	NOUN	_	Case=Nom|Number=Sing	2	compound	2:compound	_
 2	Xizrni	Xizr	PROPN	_	Case=Acc|Number=Sing	5	obj	5:obj	_
 3	qay	qay	PRON	_	PronType=Int	4	compound	4:compound	_
-4	tarz	tarz	NOUN	_	Case=Nom|Number=Sing	5	advmod	5:advmod	_
+4	tarz	tarz	NOUN	_	Case=Nom|Number=Sing	5	obl	5:obl	_
 5	topish	top	VERB	_	VerbForm=Vnoun	9	ccomp	9:ccomp	_
 6	mumkinligiga	mumkin	AUX	_	Case=Dat	5	aux	5:aux	_
 7	o‘zimning	o‘z	PRON	_	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod	8:nmod	_
