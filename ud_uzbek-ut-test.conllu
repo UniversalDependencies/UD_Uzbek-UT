@@ -1909,7 +1909,7 @@
 # sent_id = 120
 # text = Shu sababli, dronlardan faqat razvedka maqsadida foydalanilmoqda.
 1	Shu	shu	DET	_	PronType=Dem	2	det	2:det	_
-2	sababli	sababli	ADP	_	_	8	advmod	8:advmod	SpaceAfter=No
+2	sababli	sababli	ADV	_	_	8	advmod	8:advmod	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	2:punct	_
 4	dronlardan	dron	NOUN	_	Case=Abl|Number=Plur	8	obj	8:obj	_
 5	faqat	faqat	ADV	_	_	6	advmod	6:advmod	_
@@ -3884,8 +3884,8 @@
 4	tajribali	tajribali	ADJ	_	_	5	nmod	5:nmod	_
 5	sportchilar	sportchi	NOUN	_	Case=Nom|Number=Plur	12	nsubj	12:nsubj	_
 6	bilan	bilan	ADP	_	_	5	case	5:case	_
-7	bir	bir	NUM	_	NumType=Card	6	flat	6:flat	_
-8	qatorda	qator	NOUN	_	Case=Loc|Number=Sing	6	flat	6:flat	_
+7	bir	bir	NUM	_	NumType=Card	6	fixed	6:fixed	_
+8	qatorda	qator	NOUN	_	Case=Loc|Number=Sing	6	fixed	6:fixed	_
 9	yangi	yangi	ADJ	_	_	10	amod	10:amod	_
 10	yuguruvchilar	yuguruvchi	NOUN	_	Case=Nom|Number=Plur	5	conj	5:conj	_
 11	ham	ham	ADV	_	_	12	advmod	12:advmod	_
@@ -6669,7 +6669,7 @@
 5	borliqlarini	borliq	NOUN	_	Case=Acc|Number=Plur	10	obj	10:obj	_
 6	mana	mana	PRON	_	PronType=Dem	7	compound	7:compound	_
 7	shunday	shunday	PRON	_	PronType=Dem	8	amod	8:amod	_
-8	tarzda	tarz	NOUN	_	Case=Loc|Number=Sing	10	advmod	10:advmod	_
+8	tarzda	tarz	NOUN	_	Case=Loc|Number=Sing	10	obl	10:obl	_
 9	abadiyatga	abadiyat	NOUN	_	Case=Dat|Number=Sing	10	iobj	10:iobj	_
 10	muhrlamoqdalar	muhrla	VERB	_	Aspect=Prog|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	10:punct	_
