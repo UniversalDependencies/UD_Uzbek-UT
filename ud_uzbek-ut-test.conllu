@@ -6,7 +6,7 @@
 4	beri	beri	ADP	_	_	3	case	3:case	_
 5	soliq	soliq	NOUN	_	Case=Nom|Number=Sing	6	compound	6:compound	_
 6	tushumlari	tushum	NOUN	_	Case=Nom|Number=Plur	8	obl	8:obl	_
-7	qanday	qanday	PRON	_	PronType=Int	8	advmod	8:advmod	_
+7	qanday	qanday	ADV	_	PronType=Int	8	advmod	8:advmod	_
 8	o‘zgargani	o‘zgar	VERB	_	VerbForm=Part	9	csubj	9:csubj	_
 9	tahlil	tahlil	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
 10	qilindi	qil	VERB	_	Tense=Past|VerbForm=Fin|Voice=Pass	9	compound:lvc	9:compound:lvc	SpaceAfter=No
@@ -855,8 +855,8 @@
 2	velosipedda	velosiped	NOUN	_	Case=Loc|Number=Sing	5	obl	5:obl	_
 3	kechki	kechki	ADJ	_	_	4	amod	4:amod	_
 4	ovqatdan	ovqat	NOUN	_	Case=Abl|Number=Sing	5	obl	5:obl	_
-5	qaytayotgan	qayt	VERB	_	VerbForm=Part	9	advcl	9:advcl	_
-6	paytda	payt	NOUN	_	Case=Loc|Number=Sing	5	advmod	5:advmod	_
+5	qaytayotgan	qayt	VERB	_	VerbForm=Part	6	advcl	6:advcl	_
+6	paytda	payt	NOUN	_	Case=Loc|Number=Sing	9	obl	9:obl	_
 7	kirakash	kirakash	NOUN	_	Case=Nom|Number=Sing	9	nsubj	9:nsubj	_
 8	unga	u	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	obj	9:obj	_
 9	e’tiroz	e’tiroz	NOUN	_	Case=Nom|Number=Sing	0	root	0:root	_
@@ -1001,7 +1001,7 @@
 6	hal	hal	PART	_	_	10	acl	10:acl	_
 7	etilishi	et	VERB	_	VerbForm=Vnoun	6	compound	6:compound	_
 8	lozim	lozim	AUX	_	_	6	aux	6:aux	_
-9	bo'lgan	bo'l	AUX	_	VerbForm=Part	6	aux	6:aux	_
+9	bo'lgan	bo'l	AUX	_	_	6	aux	6:aux	_
 10	masalalar	masala	NOUN	_	Case=Nom|Number=Plur	11	nsubj	11:nsubj	_
 11	mavjud	mavjud	VERB	_	Tense=Pres	0	root	0:root	SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	11:punct	_
