@@ -125,31 +125,31 @@
 # sent_id = 7
 # text = Chilonzor tumanida 58 tup daraxtni kesib tashlab, tabiatga qariyb 800 mln so‘mlik zarar yetkazgani uchun Dream House Stroy kompaniyasi mansabdorlariga nisbatan jinoyat ishi ochildi.
 1	Chilonzor	Chilonzor	PROPN	_	Case=Nom|Number=Sing	2	compound	_	_
-2	tumanida	tuman	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+2	tumanida	tuman	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
 3	58	58	NUM	_	NumType=Card	5	nummod	_	_
 4	tup	tup	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
-5	daraxtni	daraxt	NOUN	_	Case=Acc|Number=Sing	6	obl	_	_
-6	kesib	kes	VERB	_	VerbForm=Conv	23	obl	_	_
-7	tashlab	tashla	VERB	_	VerbForm=Conv	6	compound	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	6	punct	_	_
-9	tabiatga	tabiat	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
+5	daraxtni	daraxt	NOUN	_	Case=Acc|Number=Sing	7	obj	_	_
+6	kesib	kes	VERB	_	VerbForm=Conv	7	compound	_	_
+7	tashlab	tashla	VERB	_	VerbForm=Conv	15	advcl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	15	punct	_	_
+9	tabiatga	tabiat	NOUN	_	Case=Dat|Number=Sing	15	obl	_	_
 10	qariyb	qariyb	ADV	_	_	11	advmod	_	_
 11	800	800	NUM	_	NumType=Card	14	nummod	_	_
 12	mln	mln	NUM	_	Abbr=Yes|NumType=Card	11	compound	_	_
 13	so‘mlik	so‘mlik	ADJ	_	_	11	flat	_	_
-14	zarar	zarar	NOUN	_	Case=Nom|Number=Sing	23	advcl	_	_
-15	yetkazgani	yet	VERB	_	_	14	compound	_	_
-16	uchun	uchun	ADP	_	_	14	case	_	_
+14	zarar	zarar	NOUN	_	Case=Nom|Number=Sing	15	compound	_	_
+15	yetkazgani	yet	VERB	_	_	25	advcl	_	_
+16	uchun	uchun	ADP	_	_	15	case	_	_
 17	Dream	Dream	NOUN	_	Foreign=Yes	20	compound	_	_
 18	House	House	NOUN	_	Foreign=Yes	17	flat	_	_
 19	Stroy	Stroy	NOUN	_	Foreign=Yes	17	flat	_	_
 20	kompaniyasi	kompaniya	NOUN	_	Poss=Yes	21	nmod:poss	_	_
-21	mansabdorlariga	mansabdor	NOUN	_	Case=Dat|Number=Plur	23	iobj	_	_
-22	nisbatan	nisbatan	ADP	_	_	21	case	_	_
-23	jinoyat	jinoyat	NOUN	_	Case=Nom|Number=Sing	0	root	_	_
-24	ishi	ish	NOUN	_	Case=Nom|Number=Sing	23	compound	_	_
-25	ochildi	och	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	23	compound	_	SpaceAfter=No
-26	.	.	PUNCT	_	_	23	punct	_	_
+21	mansabdorlariga	mansabdor	NOUN	_	Case=Dat|Number=Plur	25	iobj	_	_
+22	nisbatan	nisbatan	ADP	_	_	21	obl	_	_
+23	jinoyat	jinoyat	NOUN	_	Case=Nom|Number=Sing	24	compound	_	_
+24	ishi	ish	NOUN	_	Case=Nom|Number=Sing	25	nsubj	_	_
+25	ochildi	och	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
 
 # sent_id = 8
 # text = So‘nggi ikki yil ichidagi voqealar dunyodagi milliardlab odamlarning hayotiga halokatli ta’sir ko‘rsatdi.
@@ -430,25 +430,25 @@
 9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 25
-# text = 46 yoshli mutaxassis bunga qadar «Mahalla» xayriya fondining Toshkent shahar bo‘limiga boshliq vazifasida ishlab kelayotgandi.
+# text = 46 yoshli mutaxassis bunga qadar "Mahalla" xayriya fondining Toshkent shahar bo‘limiga boshliq vazifasida ishlab kelayotgandi.
 1	46	46	NUM	_	NumType=Card	3	nummod	_	_
 2	yoshli	yoshli	ADJ	_	_	1	compound	_	_
-3	mutaxassis	mutaxassis	NOUN	_	Case=Nom|Number=Sing	16	nsubj	_	_
-4	bunga	bu	PRON	_	Case=Dat|PronType=Dem	16	obl	_	_
+3	mutaxassis	mutaxassis	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	_
+4	bunga	bu	PRON	_	Case=Dat|PronType=Dem	17	obl	_	_
 5	qadar	qadar	ADP	_	_	4	case	_	_
-6	«	«	PUNCT	_	_	7	punct	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 7	Mahalla	mahalla	NOUN	_	Case=Nom|Number=Sing	10	compound	_	SpaceAfter=No
-8	»	»	PUNCT	_	_	7	punct	_	_
+8	"	"	PUNCT	_	_	7	punct	_	_
 9	xayriya	xayriya	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
 10	fondining	fond	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	13	nmod:poss	_	_
 11	Toshkent	Toshkent	PROPN	_	Case=Nom|Number=Sing	12	compound	_	_
 12	shahar	shahar	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
 13	bo‘limiga	bo‘lim	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 14	boshliq	boshliq	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	_
-15	vazifasida	vazifa	NOUN	_	Case=Loc|Number=Sing	16	obl	_	_
-16	ishlab	ishla	VERB	_	VerbForm=Conv	0	root	_	_
-17	kelayotgandi	kel	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Part	16	compound	_	SpaceAfter=No
-18	.	.	PUNCT	_	_	16	punct	_	_
+15	vazifasida	vazifa	NOUN	_	Case=Loc|Number=Sing	17	obl	_	_
+16	ishlab	ishla	VERB	_	VerbForm=Conv	17	compound	_	_
+17	kelayotgandi	kel	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Part	0	root	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
 
 # sent_id = 26
 # text = «Ijtimoiy fikr» markazining har bir soha bo‘yicha asosiy vazifalari belgilandi.
@@ -772,29 +772,29 @@
 3	paytida	payt	NOUN	_	Case=Loc|Number=Sing	2	case	_	_
 4	metroda	metro	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 5	bo‘lgan	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-6	hamda	hamda	CCONJ	_	_	9	cc	_	_
-7	voqeadan	voqea	NOUN	_	Case=Abl|Number=Sing	9	obl	_	_
+6	hamda	hamda	CCONJ	_	_	11	cc	_	_
+7	voqeadan	voqea	NOUN	_	Case=Abl|Number=Sing	11	obl	_	_
 8	so‘ng	so‘ng	ADP	_	_	7	case	_	_
-9	aloqaga	aloqa	NOUN	_	Case=Dat|Number=Sing	5	conj	_	_
-10	chiqmay	chiq	VERB	_	Polarity=Neg|VerbForm=Conv	9	compound	_	_
-11	qo‘ygan	qo‘y	VERB	_	Person=3|Tense=Past|VerbForm=Fin	9	compound	_	SpaceAfter=No
+9	aloqaga	aloqa	NOUN	_	Case=Dat|Number=Sing	10	compound	_	_
+10	chiqmay	chiq	VERB	_	Polarity=Neg|VerbForm=Conv	11	compound	_	_
+11	qo‘ygan	qo‘y	VERB	_	Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 48
 # text = Bu haqda Trabzon shahridagi namoyishda Turkiya prezidenti Rajab Toyyib Erdo‘g‘an aytib o‘tdi.
-1	Bu	bu	PRON	_	PronType=Dem	11	obl	_	_
+1	Bu	bu	PRON	_	PronType=Dem	12	obl	_	_
 2	haqda	haqda	ADP	_	_	1	case	_	_
 3	Trabzon	Trabzon	PROPN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	shahridagi	shahar	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	namoyishda	namoyish	NOUN	_	Case=Loc|Number=Sing	11	obl	_	_
+5	namoyishda	namoyish	NOUN	_	Case=Loc|Number=Sing	12	obl	_	_
 6	Turkiya	Turkiya	PROPN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	prezidenti	prezident	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
+7	prezidenti	prezident	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 8	Rajab	Rajab	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
 9	Toyyib	Toyyib	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
 10	Erdo‘g‘an	Erdo‘g‘an	PROPN	_	Case=Nom|Number=Sing	7	flat	_	_
-11	aytib	ayt	VERB	_	VerbForm=Conv	0	root	_	_
-12	o‘tdi	o‘t	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	compound	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	11	punct	_	_
+11	aytib	ayt	VERB	_	VerbForm=Conv	12	compound	_	_
+12	o‘tdi	o‘t	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = 49
 # text = Voqea Chenchjou shahar okrugidagi Susyan tumanida taxminan soat 17.50da yuz bergan.
@@ -841,12 +841,12 @@
 5	“	“	PUNCT	_	_	6	punct	_	SpaceAfter=No
 6	Toqtogul	Toqtogul	PROPN	_	Case=Nom|Number=Sing	9	compound	_	SpaceAfter=No
 7	”	”	PUNCT	_	_	6	punct	_	_
-8	suv	suv	NOUN	_	Case=Nom|Number=Sing	9	compound	_	_
-9	omborida	ombor	NOUN	_	Case=Loc|Number=Sing	11	obl	_	_
+8	suv	suv	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
+9	omborida	ombor	NOUN	_	Case=Loc|Number=Sing	13	obl	_	_
 10	suv	suv	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod	_	_
-11	sathi	sath	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
-12	kamayib	kamay	VERB	_	VerbForm=Conv	0	root	_	_
-13	bormoqda	bor	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	12	compound	_	SpaceAfter=No
+11	sathi	sath	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
+12	kamayib	kamay	VERB	_	VerbForm=Conv	13	compound	_	_
+13	bormoqda	bor	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 53
@@ -886,14 +886,14 @@
 
 # sent_id = 55
 # text = Toshkentda dzyudo bo‘yicha Gran-pri musobaqasi bo‘lib o‘tmoqda.
-1	Toshkentda	Toshkent	PROPN	_	Case=Loc|Number=Sing	6	obl	_	_
+1	Toshkentda	Toshkent	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
 2	dzyudo	dzyudo	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
 3	bo‘yicha	bo‘yicha	ADP	_	_	2	case	_	_
 4	Gran-pri	gran-pri	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	musobaqasi	musobaqa	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-6	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	0	root	_	_
-7	o‘tmoqda	o‘t	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	compound	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+5	musobaqasi	musobaqa	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+6	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	7	compound	_	_
+7	o‘tmoqda	o‘t	VERB	_	Aspect=Prog|Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 56
 # text = Shundan so‘ng O‘zbekiston Respublikasi davlat madhiyasi yangradi va turnir rasman ochiq deb e’lon qilindi.
@@ -934,7 +934,7 @@
 
 # sent_id = 58
 # text = Tadbirni Respublika sport tibbiyoti ilmiy-amaliy markazi rahbari Abdushukur Sodiqov ochib berdi.
-1	Tadbirni	tadbir	NOUN	_	Case=Acc|Number=Sing	12	obj	_	_
+1	Tadbirni	tadbir	NOUN	_	Case=Acc|Number=Sing	13	obj	_	_
 2	Respublika	respublika	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 3	sport	sport	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	tibbiyoti	tibbiyot	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
@@ -942,12 +942,12 @@
 6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	amaliy	amaliy	ADJ	_	_	5	compound	_	_
 8	markazi	markaz	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	9	nmod	_	_
-9	rahbari	rahbar	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
+9	rahbari	rahbar	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 10	Abdushukur	Abdushukur	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
 11	Sodiqov	Sodiqov	PROPN	_	Case=Nom|Number=Sing	9	flat	_	_
-12	ochib	och	VERB	_	VerbForm=Conv	0	root	_	_
-13	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	12	compound	_	SpaceAfter=No
-14	.	.	PUNCT	_	_	12	punct	_	_
+12	ochib	och	VERB	_	VerbForm=Conv	13	compound	_	_
+13	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 59
 # text = Mangkhut to‘foni shahar taraqqiyot rekordlarini o‘rnatishni boshlagandan beri kuzatilgan eng kuchli tabiiy ofat bo‘ldi.
@@ -982,13 +982,13 @@
 11	ravishda	ravishda	ADP	_	_	10	case	_	_
 12	ishtirok	ishtirok	NOUN	_	Case=Nom|Number=Sing	13	compound:lvc	_	_
 13	etib	et	VERB	_	VerbForm=Conv	0	root	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	19	punct	_	_
-15	tadbirni	tadbir	NOUN	_	Case=Acc|Number=Sing	19	obj	_	_
+14	,	,	PUNCT	_	_	20	punct	_	_
+15	tadbirni	tadbir	NOUN	_	Case=Acc|Number=Sing	20	obj	_	_
 16	kirish	kirish	NOUN	_	Case=Nom|Number=Sing	17	compound	_	_
-17	so‘zi	so‘z	NOUN	_	Case=Nom|Number=Sing	19	obl	_	_
+17	so‘zi	so‘z	NOUN	_	Case=Nom|Number=Sing	20	obl	_	_
 18	bilan	bilan	ADP	_	_	17	case	_	_
-19	ochib	och	VERB	_	VerbForm=Conv	13	conj	_	_
-20	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	19	compound	_	SpaceAfter=No
+19	ochib	och	VERB	_	VerbForm=Conv	20	compound	_	_
+20	berdi	ber	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	13	conj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	13	punct	_	_
 
 # sent_id = 61
@@ -1939,13 +1939,13 @@
 
 # sent_id = 122
 # text = Ammo hamkorlik bu bilan to‘xtab qolmaydi.
-1	Ammo	ammo	CCONJ	_	_	5	cc	_	_
-2	hamkorlik	hamkorlik	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-3	bu	bu	PRON	_	PronType=Dem	5	obl	_	_
+1	Ammo	ammo	CCONJ	_	_	6	cc	_	_
+2	hamkorlik	hamkorlik	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+3	bu	bu	PRON	_	PronType=Dem	6	obl	_	_
 4	bilan	bilan	ADP	_	_	3	case	_	_
-5	to‘xtab	to‘xta	VERB	_	VerbForm=Conv	0	root	_	_
-6	qolmaydi	qol	VERB	_	Mood=Ind|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	5	compound	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+5	to‘xtab	to‘xta	VERB	_	VerbForm=Conv	6	compound	_	_
+6	qolmaydi	qol	VERB	_	Mood=Ind|Person=3|Polarity=Neg|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 123
 # text = Ta’limning birinchi yili talabalar o‘zbek tilini o‘rganadi va kasb-hunar ta’limi dasturida yo‘nalish oladi.
@@ -2006,16 +2006,16 @@
 # sent_id = 127
 # text = Rim sudi italiyalik foydalanuvchilar uchun Rossiyaning Mail.ru portalini yopib qo‘ydi.
 1	Rim	Rim	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	sudi	sud	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
+2	sudi	sud	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 3	italiyalik	italiyalik	ADJ	_	_	4	amod	_	_
-4	foydalanuvchilar	foydalanuvchi	NOUN	_	Case=Nom|Number=Plur	9	obl	_	_
+4	foydalanuvchilar	foydalanuvchi	NOUN	_	Case=Nom|Number=Plur	10	obl	_	_
 5	uchun	uchun	ADP	_	_	4	case	_	_
 6	Rossiyaning	Rossiya	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	8	nmod:poss	_	_
 7	Mail.ru	Mail.ru	PROPN	_	Foreign=Yes	8	compound	_	_
-8	portalini	portal	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
-9	yopib	yop	VERB	_	VerbForm=Conv	0	root	_	_
-10	qo‘ydi	qo‘y	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	9	compound	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	9	punct	_	_
+8	portalini	portal	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
+9	yopib	yop	VERB	_	VerbForm=Conv	10	compound	_	_
+10	qo‘ydi	qo‘y	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 128
 # text = Ushbu savdo markazlari Mira prospekti, Dekabrchilar ko‘chasi va Novoyasenevskiy prospektida joylashgan.
@@ -2469,12 +2469,12 @@
 6	namoyishlariga	namoyish	NOUN	_	Case=Dat|Number=Plur	8	obj	_	_
 7	sabab	sabab	NOUN	_	Case=Nom|Number=Sing	8	compound:lvc	_	_
 8	bo‘ldi	bo‘l	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
-9	va	va	CCONJ	_	_	13	cc	_	_
-10	natijada	natija	NOUN	_	Case=Loc|Number=Sing	13	obl	_	_
+9	va	va	CCONJ	_	_	14	cc	_	_
+10	natijada	natija	NOUN	_	Case=Loc|Number=Sing	14	obl	_	_
 11	ba’zi	ba’zi	DET	_	_	12	det	_	_
-12	do‘konlar	do‘kon	NOUN	_	Case=Nom|Number=Plur	13	nsubj	_	_
-13	yoqib	yoq	VERB	_	VerbForm=Conv	8	conj	_	_
-14	yuborildi	yubor	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	13	compound	_	SpaceAfter=No
+12	do‘konlar	do‘kon	NOUN	_	Case=Nom|Number=Plur	14	nsubj	_	_
+13	yoqib	yoq	VERB	_	VerbForm=Conv	14	compound	_	_
+14	yuborildi	yubor	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	8	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 158
@@ -3027,16 +3027,16 @@
 
 # sent_id = 191
 # text = Avtobuslar harakatlanish uchun yagona jamoat transport turi bo‘lib qoladi.
-1	Avtobuslar	avtobus	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
+1	Avtobuslar	avtobus	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	_
 2	harakatlanish	harakatlan	VERB	_	VerbForm=Vnoun	5	acl	_	_
 3	uchun	uchun	ADP	_	_	2	case	_	_
 4	yagona	yagona	ADJ	_	_	5	amod	_	_
 5	jamoat	jamoat	NOUN	_	Case=Nom|Number=Sing	6	compound	_	_
 6	transport	transport	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	turi	tur	NOUN	_	Case=Nom|Number=Sing	8	xcomp	_	_
-8	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	0	root	_	_
-9	qoladi	qol	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	8	compound	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
+7	turi	tur	NOUN	_	Case=Nom|Number=Sing	9	xcomp	_	_
+8	bo‘lib	bo‘l	VERB	_	VerbForm=Conv	9	compound	_	_
+9	qoladi	qol	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 192
 # text = Elektr energiyasi uzilishi birgina Argentinaning o‘zida 48 million kishiga ta’sir ko‘rsatgan.
@@ -3281,11 +3281,11 @@
 # sent_id = 206
 # text = Ayni chog‘da olim mazkur ma’lumotlar rasmiy emasligi, sababi davlat miqyosida bunday statistika yuritilmasligini aytib o‘tgan.
 1	Ayni	ayni	ADJ	_	_	2	amod	_	_
-2	chog‘da	chog‘	NOUN	_	Case=Loc|Number=Sing	15	obl	_	_
-3	olim	olim	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
+2	chog‘da	chog‘	NOUN	_	Case=Loc|Number=Sing	16	obl	_	_
+3	olim	olim	NOUN	_	Case=Nom|Number=Sing	16	nsubj	_	_
 4	mazkur	mazkur	DET	_	PronType=Dem	5	det	_	_
 5	ma’lumotlar	ma’lumot	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
-6	rasmiy	rasmiy	ADJ	_	_	15	ccomp	_	_
+6	rasmiy	rasmiy	ADJ	_	_	16	ccomp	_	_
 7	emasligi	emas	AUX	_	Case=Nom|Number=Sing	6	cop	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
 9	sababi	sabab	ADP	_	_	14	mark	_	_
@@ -3294,9 +3294,9 @@
 12	bunday	bunday	DET	_	PronType=Dem	13	amod	_	_
 13	statistika	statistika	NOUN	_	Case=Nom|Number=Sing	14	nsubj	_	_
 14	yuritilmasligini	yurit	VERB	_	Case=Acc|Number=Sing	6	conj	_	_
-15	aytib	ayt	VERB	_	VerbForm=Conv	0	root	_	_
-16	o‘tgan	o‘t	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	compound	_	SpaceAfter=No
-17	.	.	PUNCT	_	_	15	punct	_	_
+15	aytib	ayt	VERB	_	VerbForm=Conv	16	compound	_	_
+16	o‘tgan	o‘t	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
 
 # sent_id = 207
 # text = Milliy olimpiya qo‘mitasida O‘zbekiston shaxmat federatsiyasining navbatdan tashqari hisobot-saylov konferensiyasi o‘tkazildi.
@@ -3689,13 +3689,13 @@
 # sent_id = 232
 # text = Epidemiya davrida vaziyat har tomonlama oʻrganib chiqildi.
 1	Epidemiya	epidemiya	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	davrida	davr	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
-3	vaziyat	vaziyat	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
+2	davrida	davr	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
+3	vaziyat	vaziyat	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 4	har	har	DET	_	PronType=Tot	5	compound	_	_
-5	tomonlama	tomonlama	ADV	_	_	6	advmod	_	_
-6	oʻrganib	oʻrgan	VERB	_	VerbForm=Conv	0	root	_	_
-7	chiqildi	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+5	tomonlama	tomonlama	ADV	_	_	7	advmod	_	_
+6	oʻrganib	oʻrgan	VERB	_	VerbForm=Conv	7	compound	_	_
+7	chiqildi	chiq	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 233
 # text = Yangi birja tovarining boshlangʻich narxi mahsulotning 100 kilogrammi uchun 600 ming soʻmni tashkil etadi.
@@ -3972,30 +3972,30 @@
 6	ko‘makka	ko‘mak	NOUN	_	Case=Dat|Number=Sing	7	compound:lvc	_	_
 7	keldi	kel	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	ammo	ammo	CCONJ	_	_	15	cc	_	_
-10	odatiga	odat	NOUN	_	Case=Dat|Number=Sing	15	obl	_	_
+9	ammo	ammo	CCONJ	_	_	16	cc	_	_
+10	odatiga	odat	NOUN	_	Case=Dat|Number=Sing	16	obl	_	_
 11	ko‘ra	ko‘ra	ADP	_	_	10	case	_	_
 12	yalang‘och	yalang‘och	ADJ	_	_	13	amod	_	_
-13	bepisandlik	bepisandlik	NOUN	_	Case=Nom|Number=Sing	15	obl	_	_
+13	bepisandlik	bepisandlik	NOUN	_	Case=Nom|Number=Sing	16	obl	_	_
 14	bilan	bilan	ADP	_	_	13	case	_	_
-15	g‘udranib	g‘udran	VERB	_	VerbForm=Conv	7	conj	_	_
-16	qo‘ydi	qo‘y	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	15	compound	_	SpaceAfter=No
+15	g‘udranib	g‘udran	VERB	_	VerbForm=Conv	16	compound	_	_
+16	qo‘ydi	qo‘y	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	conj	_	SpaceAfter=No
 17	:	:	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 253
 # text = Ko‘z oldi qorong‘ilashib ketayotgan Davronning yuragi hapriqib, ko‘ksiga sig‘may qolayotgandek edi.
 1	Ko‘z	ko‘z	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	oldi	old	NOUN	_	Case=Nom|Number=Sing	3	nsubj	_	_
-3	qorong‘ilashib	qorong‘ilash	VERB	_	VerbForm=Conv	5	acl	_	_
-4	ketayotgan	ket	VERB	_	VerbForm=Part	3	compound	_	_
+3	qorong‘ilashib	qorong‘ilash	VERB	_	VerbForm=Conv	4	compound	_	_
+4	ketayotgan	ket	VERB	_	VerbForm=Part	5	acl	_	_
 5	Davronning	Davron	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	6	nmod:poss	_	_
 6	yuragi	yurak	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
 7	hapriqib	hapriq	VERB	_	VerbForm=Conv	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	10	punct	_	_
-9	ko‘ksiga	ko‘ks	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
-10	sig‘may	sig‘	VERB	_	Polarity=Neg|VerbForm=Conv	7	conj	_	_
-11	qolayotgandek	qol	VERB	_	VerbForm=Part	10	compound	_	_
-12	edi	edi	AUX	_	Tense=Past	10	cop	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	11	punct	_	_
+9	ko‘ksiga	ko‘ks	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
+10	sig‘may	sig‘	VERB	_	Polarity=Neg|VerbForm=Conv	11	compound	_	_
+11	qolayotgandek	qol	VERB	_	VerbForm=Part	7	conj	_	_
+12	edi	edi	AUX	_	Tense=Past	11	cop	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 254
@@ -4496,18 +4496,18 @@
 
 # sent_id = 289
 # text = Ertasiga ellikboshi Qobil boboni boshlab qaynatasi Egamberdi paxtafurushning oldiga olib bordi.
-1	Ertasiga	erta	ADV	_	_	10	advmod	_	_
-2	ellikboshi	ellikboshi	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+1	Ertasiga	erta	ADV	_	_	11	advmod	_	_
+2	ellikboshi	ellikboshi	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 3	Qobil	Qobil	PROPN	_	Case=Nom|Number=Sing	5	obj	_	_
 4	boboni	bobo	NOUN	_	Case=Acc|Number=Sing	3	flat	_	_
-5	boshlab	boshla	VERB	_	VerbForm=Conv	10	advcl	_	_
+5	boshlab	boshla	VERB	_	VerbForm=Conv	11	advcl	_	_
 6	qaynatasi	qaynata	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
 7	Egamberdi	Egamberdi	PROPN	_	Case=Nom|Number=Sing	6	flat	_	_
 8	paxtafurushning	paxtafurush	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	7	flat	_	_
-9	oldiga	old	NOUN	_	Case=Dat|Number=Sing	10	obl	_	_
-10	olib	ol	VERB	_	VerbForm=Conv	0	root	_	_
-11	bordi	bor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	compound	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	10	punct	_	_
+9	oldiga	old	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
+10	olib	ol	VERB	_	VerbForm=Conv	11	compound	_	_
+11	bordi	bor	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 290
 # text = Qutbiddinovga ovchi oshnasi ikkita tustovuq in’om qildi.
@@ -4621,10 +4621,10 @@
 2	,	,	PUNCT	_	_	3	punct	_	_
 3	opajon	opa	NOUN	_	Case=Nom|Number=Sing	1	vocative	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
-5	men	men	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
-6	sizga	siz	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	7	iobj	_	_
-7	tushuntirib	tushuntir	VERB	_	VerbForm=Conv	1	parataxis	_	_
-8	beray	ber	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	compound	_	SpaceAfter=No
+5	men	men	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+6	sizga	siz	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	8	iobj	_	_
+7	tushuntirib	tushuntir	VERB	_	VerbForm=Conv	8	compound	_	_
+8	beray	ber	VERB	_	Mood=Opt|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = 299
@@ -4710,12 +4710,12 @@
 3	qattiq	qattiq	ADJ	_	_	5	advmod	_	_
 4	yomg‘ir	yomg‘ir	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
 5	yog‘ib	yog‘	VERB	_	VerbForm=Conv	0	root	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	10	punct	_	_
+6	,	,	PUNCT	_	_	11	punct	_	_
 7	qishdan	qish	NOUN	_	Case=Abl|Number=Sing	8	obl	_	_
 8	qolgan	qol	VERB	_	VerbForm=Part	9	acl	_	_
-9	qorni	qor	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
-10	eritib	erit	VERB	_	VerbForm=Conv	5	conj	_	_
-11	yubordi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound	_	SpaceAfter=No
+9	qorni	qor	NOUN	_	Case=Acc|Number=Sing	11	obj	_	_
+10	eritib	erit	VERB	_	VerbForm=Conv	11	compound	_	_
+11	yubordi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = 305
@@ -4730,16 +4730,16 @@
 
 # sent_id = 306
 # text = Buni mahallada Karim otadan boshqa hech kim bilmay qoldi.
-1	Buni	bu	PRON	_	Case=Acc|Number=Sing|PronType=Dem	8	obj	_	_
-2	mahallada	mahalla	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
+1	Buni	bu	PRON	_	Case=Acc|Number=Sing|PronType=Dem	9	obj	_	_
+2	mahallada	mahalla	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
 3	Karim	Karim	PROPN	_	Case=Nom|Number=Sing	5	obl	_	_
 4	otadan	ota	NOUN	_	Case=Abl|Number=Sing	3	flat	_	_
 5	boshqa	boshqa	ADJ	_	_	6	amod	_	_
-6	hech	hech	DET	_	PronType=Neg	8	nsubj	_	_
+6	hech	hech	DET	_	PronType=Neg	9	nsubj	_	_
 7	kim	kim	PRON	_	Case=Nom|Number=Sing|PronType=Int	6	compound	_	_
-8	bilmay	bil	VERB	_	Polarity=Neg|VerbForm=Conv	0	root	_	_
-9	qoldi	qol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	8	compound	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
+8	bilmay	bil	VERB	_	Polarity=Neg|VerbForm=Conv	9	compound	_	_
+9	qoldi	qol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 307
 # text = Oradan ko‘p o‘tmay choyxo‘rlardan biri qiziq bir gap topib keldi.
@@ -5066,11 +5066,11 @@
 1	So‘fining	so‘fi	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	4	nmod:poss	_	_
 2	shomg‘a	shom	NOUN	_	Case=Dat|Number=Sing	3	iobj	_	_
 3	aytgan	ayt	VERB	_	VerbForm=Part	4	acl	_	_
-4	azoni	azon	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-5	O‘lmasboyni	O‘lmasboy	PROPN	_	Case=Acc|Number=Sing	6	obj	_	_
-6	qo‘zg‘otib	qo‘zg‘ot	VERB	_	VerbForm=Conv	0	root	_	_
-7	yubordi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+4	azoni	azon	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+5	O‘lmasboyni	O‘lmasboy	PROPN	_	Case=Acc|Number=Sing	7	obj	_	_
+6	qo‘zg‘otib	qo‘zg‘ot	VERB	_	VerbForm=Conv	7	compound	_	_
+7	yubordi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 332
 # text = Dengiz shu qadar buyukligi bilan hamma vaqt qirg‘oqlardan yengiladi.
@@ -5169,14 +5169,14 @@
 4	ham	ham	ADV	_	_	2	advmod	_	_
 5	hali	hali	ADV	_	_	6	advmod	_	_
 6	baquvvat	baquvvat	ADJ	_	_	0	root	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	13	punct	_	_
+7	,	,	PUNCT	_	_	14	punct	_	_
 8	girdig‘um	girdig‘um	ADJ	_	_	9	amod	_	_
-9	gavdasiga	gavda	NOUN	_	Case=Dat|Number=Sing	13	obl	_	_
+9	gavdasiga	gavda	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
 10	chog‘	chog‘	ADJ	_	_	11	amod	_	_
-11	ketmon	ketmon	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
-12	obdon	obdon	ADV	_	_	13	advmod	_	_
-13	yarashib	yarash	VERB	_	VerbForm=Conv	6	parataxis	_	_
-14	turibdi	tur	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	13	compound	_	SpaceAfter=No
+11	ketmon	ketmon	NOUN	_	Case=Nom|Number=Sing	14	nsubj	_	_
+12	obdon	obdon	ADV	_	_	14	advmod	_	_
+13	yarashib	yarash	VERB	_	VerbForm=Conv	14	compound	_	_
+14	turibdi	tur	VERB	_	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 339
@@ -5595,13 +5595,13 @@
 # text = Qishloq chetidagi masjid tomondan azon ovozi yang­rab turardi.
 1	Qishloq	qishloq	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	chetidagi	chet	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	_
-3	masjid	masjid	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+3	masjid	masjid	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
 4	tomondan	tomon	ADP	_	_	3	case	_	_
 5	azon	azon	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
-6	ovozi	ovoz	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
-7	yang­rab	yang­ra	VERB	_	VerbForm=Conv	0	root	_	_
-8	turardi	tur	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	7	compound	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	7	punct	_	_
+6	ovozi	ovoz	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
+7	yang­rab	yang­ra	VERB	_	VerbForm=Conv	8	compound	_	_
+8	turardi	tur	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = 368
 # text = Kechki payt telefonda vaziyatni ilmiy rahbarimga yaxshilib tushuntirdim.
@@ -5657,11 +5657,11 @@
 # text = Onasining ko‘m-ko‘k ko‘zlari mehrdan porlab turardi.
 1	Onasining	ona	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	3	nmod:poss	_	_
 2	ko‘m-ko‘k	ko‘m-ko‘k	ADJ	_	_	3	amod	_	_
-3	ko‘zlari	ko‘z	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
-4	mehrdan	mehr	NOUN	_	Case=Abl|Number=Sing	5	obl	_	_
-5	porlab	porla	VERB	_	VerbForm=Conv	0	root	_	_
-6	turardi	tur	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	5	compound	_	SpaceAfter=No
-7	.	.	PUNCT	_	_	5	punct	_	_
+3	ko‘zlari	ko‘z	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
+4	mehrdan	mehr	NOUN	_	Case=Abl|Number=Sing	6	obl	_	_
+5	porlab	porla	VERB	_	VerbForm=Conv	6	compound	_	_
+6	turardi	tur	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 373
 # text = Bahor fasli, tuproqning shirin hidi olamni tutgan, yerda chuchmoma, qoqigul, otquloq, yalpiz…
@@ -5745,17 +5745,17 @@
 # sent_id = 378
 # text = Bir kuni xo‘jayin Jek Londonning kitobini ovoz chiqarib o‘qiyotganimni ko‘rib qoldi.
 1	Bir	bir	NUM	_	NumType=Card	2	nummod	_	_
-2	kuni	kun	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
-3	xo‘jayin	xo‘jayin	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+2	kuni	kun	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+3	xo‘jayin	xo‘jayin	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 4	Jek	Jek	PROPN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	Londonning	London	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	4	flat	_	_
 6	kitobini	kitob	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
 7	ovoz	ovoz	NOUN	_	Case=Nom|Number=Sing	9	advcl	_	_
 8	chiqarib	chiqar	VERB	_	VerbForm=Conv	7	compound	_	_
-9	o‘qiyotganimni	o‘qi	VERB	_	Case=Acc|Number=Sing|Person=1|VerbForm=Part	10	ccomp	_	_
-10	ko‘rib	ko‘r	VERB	_	VerbForm=Conv	0	root	_	_
-11	qoldi	qol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	10	punct	_	_
+9	o‘qiyotganimni	o‘qi	VERB	_	Case=Acc|Number=Sing|Person=1|VerbForm=Part	11	ccomp	_	_
+10	ko‘rib	ko‘r	VERB	_	VerbForm=Conv	11	compound	_	_
+11	qoldi	qol	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 379
 # text = Tilni yaxshi bilganim uchun meni bir ovropalik savdogar ishga oldi.
@@ -5923,12 +5923,12 @@
 2	keladigan	kel	VERB	_	VerbForm=Part	4	acl	_	_
 3	qudratli	qudratli	ADJ	_	_	4	amod	_	_
 4	shamol	shamol	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
-5	esa	esa	CCONJ	_	_	8	cc	_	_
-6	tevarakni	tevarak	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
-7	kulrangga	kulrang	ADJ	_	Case=Dat	8	obl	_	_
-8	o‘zgartirib	o‘zgar	VERB	_	VerbForm=Conv	0	root	_	_
-9	yuboradi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	8	compound	_	SpaceAfter=No
-10	.	.	PUNCT	_	_	8	punct	_	_
+5	esa	esa	CCONJ	_	_	9	cc	_	_
+6	tevarakni	tevarak	NOUN	_	Case=Acc|Number=Sing	9	obj	_	_
+7	kulrangga	kulrang	ADJ	_	Case=Dat	9	obl	_	_
+8	o‘zgartirib	o‘zgar	VERB	_	VerbForm=Conv	9	compound	_	_
+9	yuboradi	yubor	VERB	_	Mood=Ind|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = 392
 # text = Daraxt shoxidagi qush polaponlari qo‘rqib chiyillashadi.
@@ -6097,17 +6097,17 @@
 
 # sent_id = 405
 # text = Qayerlardadir men ko‘rmagan-bilmagan voqealar ro‘y berayotganini sezib turardim.
-1	Qayerlardadir	qayer	PRON	_	Case=Loc|Number=Plur|PronType=Int	7	obl	_	_
+1	Qayerlardadir	qayer	PRON	_	Case=Loc|Number=Plur|PronType=Int	8	obl	_	_
 2	men	men	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	ko‘rmagan	ko‘r	VERB	_	Polarity=Neg|VerbForm=Part	6	acl	_	SpaceAfter=No
 4	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
 5	bilmagan	bil	VERB	_	Polarity=Neg|VerbForm=Part	3	compound	_	_
-6	voqealar	voqea	NOUN	_	Case=Nom|Number=Plur	7	nsubj	_	_
-7	ro‘y	ro‘y	NOUN	_	Case=Nom|Number=Sing	9	ccomp	_	_
-8	berayotganini	ber	VERB	_	Case=Acc|VerbForm=Part	7	compound	_	_
-9	sezib	sez	VERB	_	VerbForm=Conv	0	root	_	_
-10	turardim	tur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	compound	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	9	punct	_	_
+6	voqealar	voqea	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
+7	ro‘y	ro‘y	NOUN	_	Case=Nom|Number=Sing	8	compound	_	_
+8	berayotganini	ber	VERB	_	Case=Acc|VerbForm=Part	10	ccomp	_	_
+9	sezib	sez	VERB	_	VerbForm=Conv	10	compound	_	_
+10	turardim	tur	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 406
 # text = O‘choqda tinmay o‘t yonadi, gohida sandal quriladi.
@@ -6211,11 +6211,11 @@
 4	daraxt	daraxt	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	shoxidan	shox	NOUN	_	Case=Abl|Number=Sing	1	conj	_	_
 6	yoy	yoy	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
-7	yasashni	yasa	VERB	_	Case=Acc|VerbForm=Vnoun	9	xcomp	_	_
+7	yasashni	yasa	VERB	_	Case=Acc|VerbForm=Vnoun	10	xcomp	_	_
 8	kashf	kashf	NOUN	_	Case=Nom|Number=Sing	9	compound:lvc	_	_
-9	qilib	qil	VERB	_	VerbForm=Conv	0	root	_	_
-10	olishgan	ol	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	compound	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	9	punct	_	_
+9	qilib	qil	VERB	_	VerbForm=Conv	10	compound	_	_
+10	olishgan	ol	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
 
 # sent_id = 414
 # text = G‘o‘za qator oralarida muhabbat tarannumi yangraganiga hayron qolasiz.
@@ -6336,18 +6336,18 @@
 
 # sent_id = 423
 # text = Shundan so‘ng monax g‘alati shu ishga butun borlig‘i bilan kirishib ketdi.
-1	Shundan	shu	PRON	_	Case=Abl|Number=Sing|PronType=Dem	10	obl	_	_
+1	Shundan	shu	PRON	_	Case=Abl|Number=Sing|PronType=Dem	11	obl	_	_
 2	so‘ng	so‘ng	ADP	_	_	1	case	_	_
-3	monax	monax	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
+3	monax	monax	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
 4	g‘alati	g‘alati	ADJ	_	_	6	amod	_	_
 5	shu	shu	DET	_	PronType=Dem	6	det	_	_
-6	ishga	ish	NOUN	_	Case=Dat|Number=Sing	10	iobj	_	_
+6	ishga	ish	NOUN	_	Case=Dat|Number=Sing	11	iobj	_	_
 7	butun	butun	ADJ	_	_	8	amod	_	_
-8	borlig‘i	borliq	NOUN	_	Case=Nom|Number=Sing	10	obl	_	_
+8	borlig‘i	borliq	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
 9	bilan	bilan	ADP	_	_	8	case	_	_
-10	kirishib	kir	VERB	_	VerbForm=Conv	0	root	_	_
-11	ketdi	ket	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	10	compound	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	10	punct	_	_
+10	kirishib	kir	VERB	_	VerbForm=Conv	11	compound	_	_
+11	ketdi	ket	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = 424
 # text = Barcha ulkan kashfiyotlar oddiy hodisalar zamirida yotishini bilardi.
@@ -6525,11 +6525,11 @@
 1	U	u	PRON	_	PronType=Dem	3	det	_	_
 2	musaffo	musaffo	ADJ	_	_	3	amod	_	_
 3	davrlarimning	davr	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	4	nmod:poss	_	_
-4	xotirasi	xotira	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
-5	ongimda	ong	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
-6	uyg‘onib	uyg‘on	VERB	_	VerbForm=Conv	0	root	_	_
-7	ketdi	ket	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	6	compound	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+4	xotirasi	xotira	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
+5	ongimda	ong	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
+6	uyg‘onib	uyg‘on	VERB	_	VerbForm=Conv	7	compound	_	_
+7	ketdi	ket	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 439
 # text = Bu yerda ham gap hayot haqida ketmayaptimi?
@@ -6726,14 +6726,14 @@
 # sent_id = 454
 # text = Butun tabiatni zavqu shavqqa to‘ldirib yuborgan edi bahor.
 1	Butun	butun	DET	_	PronType=Tot	2	det	_	_
-2	tabiatni	tabiat	NOUN	_	Case=Acc|Number=Sing	5	obj	_	_
+2	tabiatni	tabiat	NOUN	_	Case=Acc|Number=Sing	6	obj	_	_
 3	zavqu	zavq	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
-4	shavqqa	shavq	NOUN	_	Case=Dat|Number=Sing	5	obl	_	_
-5	to‘ldirib	to‘ldir	VERB	_	VerbForm=Conv	0	root	_	_
-6	yuborgan	yubor	VERB	_	VerbForm=Part	5	compound	_	_
+4	shavqqa	shavq	NOUN	_	Case=Dat|Number=Sing	6	obl	_	_
+5	to‘ldirib	to‘ldir	VERB	_	VerbForm=Conv	6	compound	_	_
+6	yuborgan	yubor	VERB	_	VerbForm=Part	0	root	_	_
 7	edi	edi	AUX	_	Tense=Past	6	cop	_	_
-8	bahor	bahor	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	5	punct	_	_
+8	bahor	bahor	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = 455
 # text = Haligi kishi o‘sha joylarni shoshilmasdan aylanib yurganga o‘xshaydi.
@@ -7057,14 +7057,14 @@
 
 # sent_id = 480
 # text = To‘satdan bu yerda Vaqt yo‘qligini ilg‘ab qolaman.
-1	To‘satdan	to‘satdan	ADV	_	_	6	advmod	_	_
+1	To‘satdan	to‘satdan	ADV	_	_	7	advmod	_	_
 2	bu	bu	DET	_	PronType=Dem	3	det	_	_
 3	yerda	yer	NOUN	_	Case=Loc|Number=Sing	5	obl	_	_
 4	Vaqt	vaqt	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	_
-5	yo‘qligini	yo‘q	VERB	_	Case=Acc	6	ccomp	_	_
-6	ilg‘ab	ilg‘a	VERB	_	VerbForm=Conv	0	root	_	_
-7	qolaman	qola	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	compound	_	SpaceAfter=No
-8	.	.	PUNCT	_	_	6	punct	_	_
+5	yo‘qligini	yo‘q	VERB	_	Case=Acc	7	ccomp	_	_
+6	ilg‘ab	ilg‘a	VERB	_	VerbForm=Conv	7	compound	_	_
+7	qolaman	qola	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = 481
 # text = Qushlar patlarini tozalay boshlasalar, kun issiq keladi…
@@ -7347,4 +7347,3 @@
 9	uyula	uyul	VERB	_	VerbForm=Conv	6	conj	_	_
 10	boshladilar	boshla	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	compound	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	6	punct	_	_
-
