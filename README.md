@@ -26,11 +26,11 @@ Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: news fiction
-Lemmas: automatic with corrections
-UPOS: automatic with corrections
+Lemmas: manual native
+UPOS: manual native
 XPOS: not available
-Features: automatic with corrections
-Relations: automatic with corrections
+Features: manual native
+Relations: manual native
 Contributors: Akhundjanova, Arofat
 Contributing: here
 Contact: arak00001@stud.uni-saarland.de
