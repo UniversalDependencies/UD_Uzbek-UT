@@ -11,7 +11,8 @@ Uzbek-UT consists of 500 sentences, 250 of which were sourced from news articles
 
 ## References
 
-* @inproceedings{Akhundjanova-Talamo,
+```
+@inproceedings{Akhundjanova-Talamo,
     author = {Arofat Akhundjanova and Luigi Talamo},
     title = {Universal Dependencies Treebank for Uzbek},
     booktitle = {Proceedings of the Third Workshop on Resources and Representations for Under-Resourced Languages and Domains (RESOURCEFUL-2025)},
@@ -21,7 +22,7 @@ Uzbek-UT consists of 500 sentences, 250 of which were sourced from news articles
     publisher = "Association for Computational Linguistics",
     pages = "1--6"
 }
-
+```
 
 # Changelog
 
