@@ -4029,7 +4029,7 @@
 7	ularning	u	PRON	_	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
 8	talqini	talqin	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
 9	ham	ham	ADV	_	_	14	advmod	_	_
-10	shunga	shu	PRON	_	Case=Dat|ExtPos=PRON|Number=Sing|PronType=Dem	15	advcl	_	_
+10	shunga	shu	PRON	_	Case=Dat|Number=Sing|PronType=Dem	15	advcl	_	_
 11	yarasha	yarasha	ADJ	_	ExtPos=ADJ	10	fixed	_	_
 12	bir-biridan	bir-biri	PRON	_	Case=Abl|Number=Sing|PronType=Rcp	15	obl	_	_
 13	keskin	keskin	ADJ	_	_	15	advmod	_	_
