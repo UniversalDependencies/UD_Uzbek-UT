@@ -3897,9 +3897,9 @@
 3	marafonida	marafon	NOUN	_	Case=Loc|Number=Sing	13	obl	_	_
 4	tajribali	tajribali	ADJ	_	_	5	nmod	_	_
 5	sportchilar	sportchi	NOUN	_	Case=Nom|Number=Plur	13	nsubj	_	_
-6	bilan	bilan	ADP	_	ExtPos=ADP	5	case	_	_
-7	bir	bir	NUM	_	NumType=Card	6	fixed	_	_
-8	qatorda	qator	NOUN	_	Case=Loc|Number=Sing	6	fixed	_	_
+6	bilan	bilan	CCONJ	_	_	10	cc	_	_
+7	bir	bir	NUM	_	NumType=Card	8	nummod	_	_
+8	qatorda	qator	NOUN	_	Case=Loc|Number=Sing	13	obl	_	_
 9	yangi	yangi	ADJ	_	_	10	amod	_	_
 10	yuguruvchilar	yuguruvchi	NOUN	_	Case=Nom|Number=Plur	5	conj	_	_
 11	ham	ham	ADV	_	_	13	advmod	_	_
