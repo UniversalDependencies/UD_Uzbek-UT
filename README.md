@@ -45,6 +45,7 @@ Uzbek-UT consists of 500 sentences, 250 of which were sourced from news articles
 Data available since: UD v2.15
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: news fiction
 Lemmas: manual native
 UPOS: manual native
