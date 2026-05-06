@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Uzbek-UT:
-commit 10847681d290d5d1f4c279c5343a4d6a9f755a73
-Merge: 2de93f8 7e326dd
+commit 90817bc520f0138e2903448eaf6bf41d097430b3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 21:01:13 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'uz_ut'
 Language code (from CoNLL-U file name) = 'uz'
@@ -25,21 +25,31 @@ Universal relations: 29 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 2 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang uz --max-err=10 UD_Uzbek-UT/uz_ut-ud-test.conllu
-[Line 12 Sent 1]: [L3 Warning verbform-fin-without-mood] Finite verb 'qilindi' lacks the 'Mood' feature
-[Line 31 Sent 2]: [L3 Warning verbform-fin-without-mood] Finite verb 'etildi' lacks the 'Mood' feature
-[Line 85 Sent 4]: [L3 Warning verbform-fin-without-mood] Finite verb 'kelishildi' lacks the 'Mood' feature
-[Line 150 Sent 7]: [L3 Warning obl-should-be-nmod] The parent (node [21] 'mansabdorlariga') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 160 Sent 8]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'voqealar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 163 Sent 8]: [L3 Warning obl-should-be-nmod] The parent (node [8] 'odamlarning') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 202 Sent 10]: [L3 Warning obl-should-be-nmod] The parent (node [13] 'taklif') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 233 Sent 12]: [L3 Warning obl-should-be-nmod] The parent (node [15] 'aholi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 247 Sent 13]: [L3 Warning obl-should-be-nmod] The parent (node [5] 'munosabatlarni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 450 Sent 25]: [L3 Warning obl-should-be-nmod] The parent (node [14] 'boshliq') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-...suppressing further errors regarding Warning
-[Line 4369 Sent 277]: [L3 Syntax too-many-objects] Multiple direct objects [2, 5] ('qoʻy', 'yarmini') under the predicate 'bersam'.
-Syntax errors: 1
-Warnings: 92
-*** FAILED *** with 1 errors
+[Line 12 Sent 1]: [L3 WARNING verbform-fin-without-mood] Finite verb 'qilindi' lacks the 'Mood' feature
+[Line 31 Sent 2]: [L3 WARNING verbform-fin-without-mood] Finite verb 'etildi' lacks the 'Mood' feature
+[Line 85 Sent 4]: [L3 WARNING verbform-fin-without-mood] Finite verb 'kelishildi' lacks the 'Mood' feature
+[Line 150 Sent 7]: [L3 SYNTAX obl-should-be-nmod] The parent (node [21] 'mansabdorlariga') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 160 Sent 8]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'voqealar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 163 Sent 8]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'odamlarning') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 202 Sent 10]: [L3 SYNTAX obl-should-be-nmod] The parent (node [13] 'taklif') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 233 Sent 12]: [L3 SYNTAX obl-should-be-nmod] The parent (node [15] 'aholi') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 247 Sent 13]: [L3 SYNTAX obl-should-be-nmod] The parent (node [5] 'munosabatlarni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 450 Sent 25]: [L3 SYNTAX obl-should-be-nmod] The parent (node [14] 'boshliq') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 464 Sent 26]: [L3 WARNING pron-det-without-prontype] The word 'har' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 466 Sent 26]: [L3 SYNTAX obl-should-be-nmod] The parent (node [11] 'vazifalari') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 486 Sent 27]: [L3 WARNING pron-det-without-prontype] The word 'ularda' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 553 Sent 32]: [L3 WARNING pron-det-without-prontype] The word 'marta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 658 Sent 39]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'tadbirlarni') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 676 Sent 40]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'korxonalar') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 784 Sent 47]: [L3 WARNING verbform-fin-without-mood] Finite verb 'qoʻygan' lacks the 'Mood' feature
+...suppressing further messages regarding ERROR/SYNTAX
+[Line 1004 Sent 61]: [L3 WARNING pron-det-without-prontype] The word 'ayrim' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1135 Sent 70]: [L3 WARNING pron-det-without-prontype] The word 'bunday' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 1144 Sent 70]: [L3 WARNING verbform-fin-without-mood] Finite verb 'berilgan' lacks the 'Mood' feature
+...suppressing further messages regarding WARNING/MORPHO
+Warnings: 45
+SYNTAX errors: 48
+*** FAILED *** with 48 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
