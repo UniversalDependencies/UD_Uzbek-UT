@@ -147,7 +147,7 @@
 19	Stroy	Stroy	NOUN	_	Foreign=Yes	17	flat	_	_
 20	kompaniyasi	kompaniya	NOUN	_	Poss=Yes	21	nmod:poss	_	_
 21	mansabdorlariga	mansabdor	NOUN	_	Case=Dat|Number=Plur	25	iobj	_	_
-22	nisbatan	nisbatan	ADP	_	_	21	obl	_	_
+22	nisbatan	nisbatan	ADP	_	_	21	nmod	_	_
 23	jinoyat	jinoyat	NOUN	_	Case=Nom|Number=Sing	24	compound	_	_
 24	ishi	ish	NOUN	_	Case=Nom|Number=Sing	25	nsubj	_	_
 25	ochildi	och	VERB	_	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No
@@ -157,10 +157,10 @@
 # text = Soʻnggi ikki yil ichidagi voqealar dunyodagi milliardlab odamlarning hayotiga halokatli taʼsir koʻrsatdi.
 1	Soʻnggi	soʻnggi	ADJ	_	_	2	amod	_	_
 2	ikki	ikki	NUM	_	NumType=Card	3	nummod	_	_
-3	yil	yil	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+3	yil	yil	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	ichidagi	ichidagi	ADP	_	_	3	case	_	_
 5	voqealar	voqea	NOUN	_	Case=Nom|Number=Plur	12	nsubj	_	_
-6	dunyodagi	dunyo	NOUN	_	Number=Sing	8	obl	_	_
+6	dunyodagi	dunyo	NOUN	_	Number=Sing	8	nmod	_	_
 7	milliardlab	milliard	NUM	_	NumType=Range	8	nummod	_	_
 8	odamlarning	odam	NOUN	_	Case=Gen|Number=Plur|Poss=Yes	9	nmod:poss	_	_
 9	hayotiga	hayot	NOUN	_	Case=Dat|Number=Sing	12	iobj	_	_
@@ -199,7 +199,7 @@
 8	muhojirlarni	muhojir	NOUN	_	Case=Acc|Number=Plur	10	obj	_	_
 9	oʻziga	oʻz	PRON	_	Case=Dat|Person=3|PronType=Prs|Reflex=Yes	10	iobj	_	_
 10	qabul	qabul	NOUN	_	Case=Nom|Number=Sing	11	compound:lvc	_	_
-11	qilish	qil	VERB	_	VerbForm=Vnoun	13	obl	_	_
+11	qilish	qil	VERB	_	VerbForm=Vnoun	13	advcl	_	_
 12	toʻgʻrisidagi	toʻgʻrisida	ADP	_	_	10	case	_	_
 13	taklif	taklif	NOUN	_	Case=Nom|Number=Sing	15	iobj	_	_
 14	bilan	bilan	ADP	_	_	13	case	_	_
@@ -230,7 +230,7 @@
 8	Qurolli	Qurolli	ADJ	_	_	9	compound	_	_
 9	kuchlari	kuch	NOUN	_	Number=Plur	18	nsubj	_	_
 10	Ukraina	Ukraina	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod	_	_
-11	janubidagi	janub	NOUN	_	_	15	obl	_	_
+11	janubidagi	janub	NOUN	_	_	15	nmod	_	_
 12	40	40	NUM	_	NumType=Card	15	nummod	_	_
 13	dan	dan	ADP	_	_	12	case	_	_
 14	ortiq	ortiq	ADJ	_	_	12	amod	_	_
@@ -244,7 +244,7 @@
 
 # sent_id = 13
 # text = Mamlakatlarimiz oʻrtasidagi koʻp tomonlama munosabatlarni rivojlantirish uchun birgalikda salmoqli ishlar qilinganini eʼtirof etish lozim.
-1	Mamlakatlarimiz	Mamlakat	NOUN	_	Case=Nom|Number=Plur	5	obl	_	_
+1	Mamlakatlarimiz	Mamlakat	NOUN	_	Case=Nom|Number=Plur	5	nmod	_	_
 2	oʻrtasidagi	oʻrtasida	ADP	_	_	1	case	_	_
 3	koʻp	koʻp	ADJ	_	_	4	advmod	_	_
 4	tomonlama	tomonlama	ADJ	_	_	5	amod	_	_
@@ -447,7 +447,7 @@
 10	fondining	fond	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	13	nmod:poss	_	_
 11	Toshkent	Toshkent	PROPN	_	Case=Nom|Number=Sing	12	compound	_	_
 12	shahar	shahar	NOUN	_	Case=Nom|Number=Sing	13	nmod	_	_
-13	boʻlimiga	boʻlim	NOUN	_	Case=Dat|Number=Sing	14	obl	_	_
+13	boʻlimiga	boʻlim	NOUN	_	Case=Dat|Number=Sing	14	nmod	_	_
 14	boshliq	boshliq	NOUN	_	Case=Nom|Number=Sing	15	nmod	_	_
 15	vazifasida	vazifa	NOUN	_	Case=Loc|Number=Sing	17	obl	_	_
 16	ishlab	ishla	VERB	_	VerbForm=Conv	17	compound:svc	_	_
@@ -463,7 +463,7 @@
 5	markazining	markaz	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod:poss	_	_
 6	har	har	DET	_	_	8	det	_	_
 7	bir	bir	NUM	_	NumType=Card	6	compound	_	_
-8	soha	soha	NOUN	_	Case=Nom|Number=Sing	11	obl	_	_
+8	soha	soha	NOUN	_	Case=Nom|Number=Sing	11	nmod	_	_
 9	boʻyicha	boʻyicha	ADP	_	_	8	case	_	_
 10	asosiy	asosiy	ADJ	_	_	11	amod	_	_
 11	vazifalari	vazifa	NOUN	_	Case=Nom|Number=Plur	12	nsubj	_	_
@@ -655,7 +655,7 @@
 2	oʻz	oʻz	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod	_	_
 3	maʼmuriyatiga	maʼmuriyat	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
 4	poytaxtning	poytaxt	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	5	nmod:poss	_	_
-5	koʻchirilishi	koʻchir	VERB	_	VerbForm=Vnoun	8	obl	_	_
+5	koʻchirilishi	koʻchir	VERB	_	VerbForm=Vnoun	8	advcl	_	_
 6	boʻyicha	boʻyicha	ADP	_	_	5	case	_	_
 7	zarur	zarur	ADJ	_	_	8	amod	_	_
 8	tadbirlarni	tadbir	NOUN	_	Case=Acc|Number=Plur	9	obj	_	_
@@ -673,7 +673,7 @@
 5	”	”	PUNCT	_	_	4	punct	_	_
 6	erkin	erkin	ADJ	_	_	8	amod	_	_
 7	iqtisodiy	iqtisodiy	ADJ	_	_	8	amod	_	_
-8	zonasidagi	zona	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+8	zonasidagi	zona	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
 9	korxonalar	korxona	NOUN	_	Case=Nom|Number=Plur	17	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	_
 11	qurilishi	qurilish	VERB	_	VerbForm=Vnoun	12	obl	_	_
@@ -891,7 +891,7 @@
 # sent_id = 55
 # text = Toshkentda dzyudo boʻyicha Gran-pri musobaqasi boʻlib oʻtmoqda.
 1	Toshkentda	Toshkent	PROPN	_	Case=Loc|Number=Sing	7	obl	_	_
-2	dzyudo	dzyudo	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+2	dzyudo	dzyudo	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	boʻyicha	boʻyicha	ADP	_	_	2	case	_	_
 4	Gran-pri	gran-pri	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 5	musobaqasi	musobaqa	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	_
@@ -923,7 +923,7 @@
 2	Arabistoni	Arabiston	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 3	podshohligi	podshohlik	NOUN	_	Case=Nom|Number=Sing	15	nsubj	_	_
 4	oʻzi	oʻz	PRON	_	Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	nmod	_	_
-5	yetakchiligidagi	yetakchilik	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
+5	yetakchiligidagi	yetakchilik	NOUN	_	Case=Loc|Number=Sing	6	nmod	_	_
 6	koalitsiya	koalitsiya	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	7	nmod	_	_
 7	samolyotlarini	samolyot	NOUN	_	Case=Acc|Number=Plur	10	obj	_	_
 8	havoda	havo	NOUN	_	Case=Loc|Number=Sing	10	obl	_	_
@@ -1016,7 +1016,7 @@
 2	holat	holat	NOUN	_	Case=Nom|Number=Sing	12	nsubj	_	_
 3	aholining	aholi	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	10	nsubj	_	_
 4	qoʻshni	qoʻshni	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
-5	mahalla	mahalla	NOUN	_	Case=Nom|Number=Sing	9	obl	_	_
+5	mahalla	mahalla	NOUN	_	Case=Nom|Number=Sing	9	nmod	_	_
 6	yoki	yoki	CCONJ	_	_	8	cc	_	_
 7	uzoq	uzoq	ADJ	_	_	8	amod	_	_
 8	masofadagi	masofa	NOUN	_	Case=Nom|Number=Sing	5	conj	_	_
@@ -1061,7 +1061,7 @@
 2	tibbiyot	tibbiyot	NOUN	_	Case=Nom|Number=Sing	3	compound	_	_
 3	birlashmasida	birlashma	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
 4	mazkur	mazkur	DET	_	PronType=Dem	5	det	_	_
-5	tashabbus	tashabbus	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+5	tashabbus	tashabbus	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 6	boʻyicha	boʻyicha	ADP	_	_	5	case	_	_
 7	donorlik	donorlik	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 8	aksiyasi	aksiya	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
@@ -1074,7 +1074,7 @@
 1	Chunki	chunki	SCONJ	_	_	9	cc	_	_
 2	davlat	davlat	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	4	nmod	_	_
 3	sugʻurta	sugʻurta	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
-4	tashkilotlariga	tashkilot	NOUN	_	Case=Dat|Number=Plur	6	obl	_	_
+4	tashkilotlariga	tashkilot	NOUN	_	Case=Dat|Number=Plur	6	nmod	_	_
 5	boʻlgan	boʻl	ADP	_	_	4	case	_	_
 6	ishonch	ishonch	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 7	hamon	hamon	ADV	_	_	9	advmod	_	_
@@ -1090,7 +1090,7 @@
 4	sugʻurtaning	sugʻurta	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	8	nmod	_	_
 5	Yalpi	yalpi	ADJ	_	_	7	compound	_	_
 6	ichki	ichki	ADJ	_	_	7	compound	_	_
-7	mahsulotdagi	mahsulot	NOUN	_	Case=Nom|Number=Sing	8	obl	_	_
+7	mahsulotdagi	mahsulot	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 8	ulushi	ulush	NOUN	_	Case=Nom|Number=Sing	14	nsubj	_	_
 9	8	8	NUM	_	NumType=Card	12	nummod	_	SpaceAfter=No
 10	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -1146,10 +1146,10 @@
 
 # sent_id = 71
 # text = Hukumatga nisbatan ishonchsizlik votumi haqidagi qarorni 50 nafar deputat qoʻllab-quvvatladi, bir nafar parlamentariy betaraf qoldi.
-1	Hukumatga	hukumat	NOUN	_	Case=Dat|Number=Sing	4	obl	_	_
+1	Hukumatga	hukumat	NOUN	_	Case=Dat|Number=Sing	4	nmod	_	_
 2	nisbatan	nisbatan	ADP	_	_	1	case	_	_
 3	ishonchsizlik	ishonchsizlik	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
-4	votumi	votum	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
+4	votumi	votum	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	haqidagi	haqida	ADP	_	_	4	case	_	_
 6	qarorni	qaror	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 7	50	50	NUM	_	NumType=Card	9	nummod	_	_
@@ -1188,7 +1188,7 @@
 3	LGALPHA	LGALPHA	NOUN	_	_	5	nmod	_	_
 4	9	9	NUM	_	NumType=Card	5	nummod	_	_
 5	protsessori	protsessor	NOUN	_	Case=Nom|Number=Sing	11	nsubj	_	_
-6	bozordagi	bozor	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+6	bozordagi	bozor	NOUN	_	Case=Loc|Number=Sing	9	nmod	_	_
 7	yetakchi	yetakchi	ADJ	_	_	9	amod	_	_
 8	OLEDTV	OLEDTV	NOUN	_	_	9	nmod	_	_
 9	televizorlariga	televizor	NOUN	_	Case=Dat|Number=Plur	11	iobj	_	_
@@ -1205,13 +1205,13 @@
 5	milliy	milliy	ADJ	_	_	6	amod	_	_
 6	valyutaning	valyuta	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod:poss	_	_
 7	AQSh	AQSh	PROPN	_	Abbr=Yes|Case=Nom|Number=Sing	8	nmod	_	_
-8	dollariga	dollar	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
+8	dollariga	dollar	NOUN	_	Case=Dat|Number=Sing	11	nmod	_	_
 9	nisbatan	nisbatan	ADP	_	_	8	case	_	_
 10	almashuv	almashuv	NOUN	_	Case=Nom|Number=Sing	11	compound	_	_
 11	kursi	kurs	NOUN	_	Case=Nom|Number=Sing	17	nsubj	_	_
 12	yil	yil	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	13	nmod	_	_
 13	boshiga	bosh	NOUN	_	Case=Dat|Number=Sing	17	obl	_	_
-14	nisbatan	nisbatan	ADP	_	_	13	obl	_	_
+14	nisbatan	nisbatan	ADP	_	_	13	nmod	_	_
 15	10,1	10,1	NUM	_	NumType=Frac	16	nummod	_	_
 16	foizga	foiz	NOUN	_	Case=Dat|Number=Sing	17	iobj	_	_
 17	qadrsizlangan	qadrsizlan	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -1221,7 +1221,7 @@
 # text = Viratning rafiqasi homiladorligi haqidagi posti 2020-yilning eng mashhur tvitlaridan biri boʻlgan.
 1	Viratning	Virat	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	2	nmod:poss	_	_
 2	rafiqasi	rafiqa	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	3	nmod	_	_
-3	homiladorligi	homiladorlik	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+3	homiladorligi	homiladorlik	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	haqidagi	haqidagi	ADP	_	_	3	case	_	_
 5	posti	post	NOUN	_	Case=Nom|Number=Sing	13	nsubj	_	_
 6	2020	2020	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
@@ -1269,7 +1269,7 @@
 16	?	?	PUNCT	_	_	15	punct	_	_
 
 # sent_id = 78
-# text =  Bu haqda Rossiya prezidenti matbuot xizmati xabar berdi.
+# text = Bu haqda Rossiya prezidenti matbuot xizmati xabar berdi.
 1	Bu	bu	PRON	_	PronType=Dem	8	obl	_	_
 2	haqda	haqda	ADP	_	_	1	case	_	_
 3	Rossiya	Rossiya	PROPN	_	Case=Nom|Number=Sing	4	nmod	_	_
@@ -1384,7 +1384,7 @@
 # sent_id = 86
 # text = Ularni aeroportdagi rentgen apparatlari aniqlashi mushkul va xavfsizlik xizmatlarida shubha uygʻotmaydi.
 1	Ularni	u	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	obj	_	_
-2	aeroportdagi	aeroport	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+2	aeroportdagi	aeroport	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
 3	rentgen	rentgen	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	apparatlari	apparat	NOUN	_	Case=Nom|Number=Plur	5	nsubj	_	_
 5	aniqlashi	aniqla	VERB	_	VerbForm=Vnoun	6	xcomp	_	_
@@ -1618,7 +1618,7 @@
 1	Oʻzbekiston	Oʻzbekiston	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	3	nmod	_	_
 2	terma	terma	ADJ	_	_	3	amod	_	_
 3	jamoasi	jamoa	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	4	nmod	_	_
-4	aʼzolaridan	aʼzo	NOUN	_	Case=Abl|Number=Plur	5	obl	_	_
+4	aʼzolaridan	aʼzo	NOUN	_	Case=Abl|Number=Plur	5	nmod	_	_
 5	Sharofiddin	Sharofiddin	PROPN	_	Case=Nom|Number=Sing	19	nsubj	_	_
 6	Lutfullayev	Lutfullayev	PROPN	_	Case=Nom|Number=Sing	4	flat	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
@@ -1926,7 +1926,7 @@
 
 # sent_id = 121
 # text = Togʻli Qorabogʻdagi urushda ular hal qiluvchi rol oʻynadi, chunki Ozarboyjon havoda ustunlikka ega edi.
-1	Togʻli	Togʻli	PROPN	_	Case=Nom|Number=Sing	3	obl	_	_
+1	Togʻli	Togʻli	PROPN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	Qorabogʻdagi	Qorabogʻ	PROPN	_	Case=Loc|Number=Sing	1	flat	_	_
 3	urushda	urush	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
 4	ular	u	PRON	_	Number=Plur|Person=3|PronType=Prs	8	nsubj	_	_
@@ -2457,7 +2457,7 @@
 1	Moskva	Moskva	PROPN	_	Case=Nom|Number=Sing	2	nmod	_	_
 2	birjasi	birja	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 3	oʻzbek	oʻzbek	ADJ	_	_	4	amod	_	_
-4	soʻmi	soʻm	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
+4	soʻmi	soʻm	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	_
 5	bilan	bilan	ADP	_	_	4	case	_	_
 6	savdoni	savdo	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
 7	yoʻlga	yoʻl	NOUN	_	Case=Dat|Number=Sing	8	compound:lvc	_	_
@@ -3006,7 +3006,7 @@
 5	zarur	zarur	ADJ	_	_	6	compound:lvc	_	_
 6	boʻlgan	boʻl	VERB	_	_	8	acl	_	_
 7	xorijiy	xorijiy	ADJ	_	_	8	amod	_	_
-8	valyutada	valyuta	NOUN	_	Case=Loc|Number=Sing	9	obl	_	_
+8	valyutada	valyuta	NOUN	_	Case=Loc|Number=Sing	9	nmod	_	_
 9	daromad	daromad	NOUN	_	Case=Nom|Number=Sing	17	obj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	Janubiy	janubiy	ADJ	_	_	12	amod	_	_
@@ -3023,7 +3023,7 @@
 1	Barcha	barcha	DET	_	PronType=Tot	2	det	_	_
 2	istovchilar	istovchi	NOUN	_	Case=Nom|Number=Plur	11	nsubj	_	_
 3	qandli	qandli	ADJ	_	_	4	compound	_	_
-4	diabet	diabet	NOUN	_	Case=Nom|Number=Sing	7	obl	_	_
+4	diabet	diabet	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
 5	boʻyicha	boʻyicha	ADP	_	_	4	case	_	_
 6	zarur	zarur	ADJ	_	_	7	amod	_	_
 7	maslahat	maslahat	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	_
@@ -3064,7 +3064,7 @@
 # sent_id = 193
 # text = Ammo Suriyadagi oʻn yillik urush tufayli gaz quvurlari va nasos stansiyalari oʻz faoliyatini toʻxtatgan.
 1	Ammo	ammo	CCONJ	_	_	14	cc	_	_
-2	Suriyadagi	Suriya	PROPN	_	Case=Loc|Number=Sing	5	obl	_	_
+2	Suriyadagi	Suriya	PROPN	_	Case=Loc|Number=Sing	5	nmod	_	_
 3	oʻn	oʻn	NUM	_	NumType=Card	4	nummod	_	_
 4	yillik	yillik	ADJ	_	_	5	amod	_	_
 5	urush	urush	NOUN	_	_	14	obl	_	_
@@ -3502,7 +3502,7 @@
 5	olgan	ol	VERB	_	VerbForm=Part	4	compound:svc	_	_
 6	vakillarimiz	vakil	NOUN	_	Case=Nom|Number=Plur	10	nsubj	_	_
 7	kombinatsiyalar	kombinatsiya	NOUN	_	Case=Nom|Number=Plur	8	nmod	_	_
-8	evaziga	evaz	NOUN	_	Case=Dat|Number=Sing	9	obl	_	_
+8	evaziga	evaz	NOUN	_	Case=Dat|Number=Sing	9	nmod	_	_
 9	hisobni	hisob	NOUN	_	Case=Acc|Number=Sing	10	obj	_	_
 10	ochdi	och	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	_
@@ -3513,7 +3513,7 @@
 2	Omikron	Omikron	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	SpaceAfter=No
 3	”	”	PUNCT	_	_	2	punct	_	SpaceAfter=No
 4	ning	ning	ADP	_	_	2	case	_	_
-5	xususiyatlari	xususiyat	NOUN	_	Case=Nom|Number=Plur	8	obl	_	_
+5	xususiyatlari	xususiyat	NOUN	_	Case=Nom|Number=Plur	8	nmod	_	_
 6	haqida	haqida	ADP	_	_	5	case	_	_
 7	yaxshi	yaxshi	ADJ	_	_	8	amod	_	_
 8	maʼlumotlar	maʼlumot	NOUN	_	Case=Nom|Number=Plur	9	nsubj	_	_
@@ -3636,7 +3636,7 @@
 # sent_id = 228
 # text = Akademik litseylarga kirish imtihonlari joriy yilning 26-28-avgust kunlari Davlat test markazi tomonidan maxsus pavilyonlarda oʻtkaziladi.
 1	Akademik	akademik	ADJ	_	_	2	compound	_	_
-2	litseylarga	litsey	NOUN	_	Case=Dat|Number=Plur	4	obl	_	_
+2	litseylarga	litsey	NOUN	_	Case=Dat|Number=Plur	4	nmod	_	_
 3	kirish	kirish	NOUN	_	Case=Nom|Number=Sing	4	compound	_	_
 4	imtihonlari	imtihon	NOUN	_	Case=Nom|Number=Plur	19	nsubj	_	_
 5	joriy	joriy	ADJ	_	_	6	amod	_	_
@@ -3883,7 +3883,7 @@
 1	Bu	bu	DET	_	PronType=Dem	8	nsubj	_	_
 2	bolalarga	bola	NOUN	_	Case=Dat|Number=Plur	8	iobj	_	_
 3	anʼanaviy	anʼanaviy	ADJ	_	_	4	amod	_	_
-4	bogʻchalardagidek	bogʻcha	NOUN	_	Case=Loc|Number=Plur	5	obl	_	_
+4	bogʻchalardagidek	bogʻcha	NOUN	_	Case=Loc|Number=Plur	5	nmod	_	_
 5	sharoitda	sharoit	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
 6	tarbiyalanish	tarbiyala	VERB	_	VerbForm=Vnoun	7	acl	_	_
 7	imkonini	imkon	NOUN	_	Case=Acc|Number=Sing	8	obj	_	_
@@ -3928,7 +3928,7 @@
 3	Prezidenti	prezident	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	_
 4	Aleksandr	Aleksandr	PROPN	_	Case=Nom|Number=Sing	3	flat	_	_
 5	Lukashenkoning	Lukashenko	PROPN	_	Case=Gen|Number=Sing|Poss=Yes	3	flat	_	_
-6	mamlakatimizga	mamlakat	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
+6	mamlakatimizga	mamlakat	NOUN	_	Case=Dat|Number=Sing	8	nmod	_	_
 7	rasmiy	rasmiy	ADJ	_	_	8	amod	_	_
 8	tashrifi	tashrif	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	_
 9	davom	davom	NOUN	_	Case=Nom|Number=Sing	10	compound:lvc	_	_
@@ -4047,7 +4047,7 @@
 6	ekanmiz	ekan	AUX	_	Number=Plur|Person=3	5	cop	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	14	punct	_	_
 8	avtorning	avtor	NOUN	_	Case=Gen|Number=Sing|Poss=Yes	11	nmod:poss	_	_
-9	mehnatga	mehnat	NOUN	_	Case=Dat|Number=Sing	11	obl	_	_
+9	mehnatga	mehnat	NOUN	_	Case=Dat|Number=Sing	11	nmod	_	_
 10	notoʻgʻri	notoʻgʻri	ADJ	_	_	11	amod	_	_
 11	munosabatini	munosabat	NOUN	_	Case=Acc|Number=Sing	14	obj	_	_
 12	alohida	alohida	ADJ	_	_	14	advmod	_	_
@@ -4060,7 +4060,7 @@
 # text = Nosirov qabulxonada hurmat yuzasidan oʻrnidan turgan yordamchisi — yigirma ikki yoshlardagi baland boʻyli, xushqomat, juda nozik qizga salom berib, kabinetiga kirib ketdi.
 1	Nosirov	Nosirov	PROPN	_	Case=Nom|Number=Sing	24	nsubj	_	_
 2	qabulxonada	qabulxona	NOUN	_	Case=Loc|Number=Sing	6	obl	_	_
-3	hurmat	hurmat	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+3	hurmat	hurmat	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 4	yuzasidan	yuza	NOUN	_	Case=Abl|Number=Sing	3	case	_	_
 5	oʻrnidan	oʻrin	NOUN	_	Case=Abl|Number=Sing	6	obl	_	_
 6	turgan	tur	VERB	_	VerbForm=Part	7	acl	_	_
@@ -4882,7 +4882,7 @@
 4	bir	bir	NUM	_	NumType=Card	5	nummod	_	_
 5	rejissyor	rejissyor	NOUN	_	Case=Nom|Number=Sing	2	conj	_	_
 6	kolxoz	kolxoz	NOUN	_	Case=Nom|Number=Sing	7	nmod	_	_
-7	hayotidan	hayot	NOUN	_	Case=Abl|Number=Sing	8	obl	_	_
+7	hayotidan	hayot	NOUN	_	Case=Abl|Number=Sing	8	nmod	_	_
 8	kartina	kartina	NOUN	_	Case=Nom|Number=Sing	9	obj	_	_
 9	yaratmoqchi	yarat	VERB	_	_	0	root	_	_
 10	boʻlishadi	boʻl	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	9	compound:svc	_	SpaceAfter=No
@@ -4901,7 +4901,7 @@
 # sent_id = 316
 # text = Boʻlajak kinokomediya haqidagi xushchaqchaq suhbat yarim kechagacha davom etdi.
 1	Boʻlajak	boʻlajak	ADJ	_	_	2	amod	_	_
-2	kinokomediya	kinokomediya	NOUN	_	Case=Nom|Number=Sing	5	obl	_	_
+2	kinokomediya	kinokomediya	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	_
 3	haqidagi	haqida	ADP	_	_	2	case	_	_
 4	xushchaqchaq	xushchaqchaq	ADJ	_	_	5	amod	_	_
 5	suhbat	suhbat	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
@@ -5489,7 +5489,7 @@
 1	Bozorda	bozor	NOUN	_	Case=Loc|Number=Sing	2	obl	_	_
 2	sanqib	sanqi	VERB	_	VerbForm=Conv	6	acl	_	_
 3	yurgan	yur	VERB	_	VerbForm=Part	2	compound:svc	_	_
-4	biz	biz	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	obl	_	_
+4	biz	biz	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nmod	_	_
 5	daydi	daydi	ADJ	_	_	6	amod	_	_
 6	bolalar	bola	NOUN	_	Case=Nom|Number=Plur	4	appos	_	_
 7	uchun	uchun	ADP	_	_	4	case	_	_
@@ -5923,7 +5923,7 @@
 2	bitirgach	bitir	VERB	_	VerbForm=Conv	8	advcl	_	_
 3	ham	ham	ADV	_	_	8	advmod	_	_
 4	uning	u	PRON	_	Case=Gen|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod	_	_
-5	uchoqlarga	uchoq	NOUN	_	Case=Dat|Number=Plur	7	obl	_	_
+5	uchoqlarga	uchoq	NOUN	_	Case=Dat|Number=Plur	7	nmod	_	_
 6	boʻlgan	boʻl	VERB	_	VerbForm=Part	5	case	_	_
 7	qiziqishi	qiziqish	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	_
 8	soʻnmadi	soʻn	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -5981,7 +5981,7 @@
 # sent_id = 392
 # text = Daraxt shoxidagi qush polaponlari qoʻrqib chiyillashadi.
 1	Daraxt	daraxt	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	shoxidagi	shox	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+2	shoxidagi	shox	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
 3	qush	qush	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
 4	polaponlari	polapon	NOUN	_	Case=Nom|Number=Plur	6	nsubj	_	_
 5	qoʻrqib	qoʻrq	VERB	_	VerbForm=Conv	6	advcl	_	_
@@ -6084,7 +6084,7 @@
 
 # sent_id = 400
 # text = Yoʻl boʻyidagi ariqda toza suvlar sharqirab oqardi.
-1	Yoʻl	yoʻl	NOUN	_	Case=Nom|Number=Sing	3	obl	_	_
+1	Yoʻl	yoʻl	NOUN	_	Case=Nom|Number=Sing	3	nmod	_	_
 2	boʻyidagi	boʻy	NOUN	_	Case=Loc|Number=Sing	1	case	_	_
 3	ariqda	ariq	NOUN	_	Case=Loc|Number=Sing	7	obl	_	_
 4	toza	toza	ADJ	_	_	5	amod	_	_
@@ -6204,7 +6204,7 @@
 1	Gohida	gohida	ADV	_	_	8	advmod	_	_
 2	belanchakka	belanchak	NOUN	_	Case=Dat|Number=Sing	8	obl	_	_
 3	tol	tol	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	_
-4	shoxlaridagi	shox	NOUN	_	Case=Loc|Number=Plur	7	obl	_	_
+4	shoxlaridagi	shox	NOUN	_	Case=Loc|Number=Plur	7	nmod	_	_
 5	qurt	qurt	NOUN	_	Case=Nom|Number=Sing	7	compound	_	SpaceAfter=No
 6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
 7	qumursqalar	qumursqa	NOUN	_	Case=Nom|Number=Plur	8	nsubj	_	_
@@ -6912,7 +6912,7 @@
 # text = Bir kuni choʻponlardan kimdir uni koʻribdi.
 1	Bir	bir	NUM	_	NumType=Card	2	nummod	_	_
 2	kuni	kun	NOUN	_	Case=Nom|Number=Sing	6	obl	_	_
-3	choʻponlardan	choʻpon	NOUN	_	Case=Abl|Number=Plur	4	obl	_	_
+3	choʻponlardan	choʻpon	NOUN	_	Case=Abl|Number=Plur	4	nmod	_	_
 4	kimdir	kim	PRON	_	PronType=Int	6	nsubj	_	_
 5	uni	u	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	6	obj	_	_
 6	koʻribdi	koʻr	VERB	_	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	0	root	_	SpaceAfter=No
@@ -6998,7 +6998,7 @@
 # text = Oltmish olti soʻngagim, yetmish yetti tomirim orasidagi mushtoq qalbim faqat seni qoʻmsaydi!
 1	Oltmish	oltmish	NUM	_	NumType=Card	3	nummod	_	_
 2	olti	olti	NUM	_	NumType=Card	1	compound	_	_
-3	soʻngagim	soʻngak	NOUN	_	Case=Nom|Number=Sing	10	obl	_	SpaceAfter=No
+3	soʻngagim	soʻngak	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	_
 5	yetmish	yetmish	NUM	_	NumType=Card	7	nummod	_	_
 6	yetti	yetti	NUM	_	NumType=Card	5	compound	_	_
@@ -7019,7 +7019,7 @@
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	ammo	ammo	CCONJ	_	_	9	cc	_	_
 6	har	har	DET	_	PronType=Tot	7	det	_	_
-7	hovlisidagi	hovli	NOUN	_	Case=Loc|Number=Sing	8	obl	_	_
+7	hovlisidagi	hovli	NOUN	_	Case=Loc|Number=Sing	8	nmod	_	_
 8	manzara	manzara	NOUN	_	Case=Nom|Number=Sing	9	nsubj	_	_
 9	oʻxshash	oʻxshash	ADJ	_	_	2	conj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
@@ -7215,7 +7215,7 @@
 # sent_id = 486
 # text = Diydor yoʻlidagi barcha xohishu istaklar uqubatli, yor esa hamisha diloromdir…
 1	Diydor	diydor	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	_
-2	yoʻlidagi	yoʻl	NOUN	_	Case=Loc|Number=Sing	4	obl	_	_
+2	yoʻlidagi	yoʻl	NOUN	_	Case=Loc|Number=Sing	4	nmod	_	_
 3	barcha	barcha	DET	_	PronType=Tot	4	det	_	_
 4	xohishu	xohish	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	_
 5	istaklar	istak	NOUN	_	Case=Nom|Number=Plur	4	compound	_	_
